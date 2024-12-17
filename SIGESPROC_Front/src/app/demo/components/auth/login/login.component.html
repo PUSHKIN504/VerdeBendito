@@ -1,0 +1,158 @@
+
+
+
+<p-toast></p-toast>
+
+<body>
+    <section>
+      <div class="box">
+       <div class="square" style="--i:0;"></div> 
+        <div class="square" style="--i:1;"></div>
+         <div class="square" style="--i:2;"></div> 
+        <div class="square" style="--i:3;"></div>
+       <div class="square" style="--i:4;"></div> 
+        <div class="square" style="--i:5;"></div>
+       
+       <div class="login"> 
+       <div class="ladoIzquierdo">
+        <img src="../../../../../assets/layout/images/pages/Diseño sin título(1).svg" alt="" class="logo">
+  
+       </div>
+       <div class="container"> 
+        <div class="form"> 
+          <div class="logotitulo">
+            <h2 class="title">Inicio de sesión</h2>
+          </div>
+          <form action="">
+            <div class="inputBx">
+              <input
+                maxlength="80"
+                type="text"
+                name="usuario"
+                required="required"
+                [(ngModel)]="usuario"
+                [ngClass]="{'input-error': usuarioValidarClave}"
+              />
+              <span>Usuario</span>
+              <i class="pi pi-user"X></i>
+            </div>
+            <div class="inputBx">
+              <input
+                id="password-input"
+                type="password"
+                name="password"
+                required="required"
+                [(ngModel)]="clave"
+                [ngClass]="{'input-error': usuarioValidarClave}"
+              />
+              <span>Contraseña</span>
+              <i class="pi pi-key"></i>
+            </div>
+            
+            <div
+            class="inputBx boton"
+            style="display: flex; align-items: center"
+        >
+            <button
+                style="margin-right: 15%"
+                class="button-24"
+                (click)="Login()"
+                role="button"
+            >
+                Entrar
+            </button>
+        </div>
+          </form>
+        </div>
+      </div>
+    </div>
+   </div>
+    </section>
+    <div id="content">
+      <h1></h1>
+      <p></p>
+    </div>
+    <div id="outerCraneContainer">
+      </div>
+      <style>
+        .login-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 100vh;
+          background-color: #f5f5f5;
+          padding: 20px;
+        }
+    
+        .login-form {
+          background-color: #ffffff;
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+          max-width: 400px;
+          width: 100%;
+          text-align: center;
+        }
+    
+        .login-form h1 {
+          margin-bottom: 20px;
+          font-size: 24px;
+          color: #333333;
+        }
+    
+        /* Inputs y contenedor */
+        .inputBx {
+          position: relative;
+          margin-bottom: 20px;
+        }
+    
+        .inputBx input {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          font-size: 16px;
+          box-sizing: border-box;
+          transition: border-color 0.3s ease;
+        }
+    
+        /* Borde rojo en caso de error */
+        .inputBx input.input-error {
+          border-color: red !important;
+        }
+    
+        /* Mensajes de error */
+        .inputBx small {
+          color: red;
+          font-size: 12px;
+          position: absolute;
+          top: 100%;
+          left: 10px;
+          margin-top: 1px;
+          display: block;
+        }
+    
+        /* Hover y Focus */
+        .inputBx input:focus {
+          border-color: #007bff;
+          outline: none;
+        }
+    
+        /* Botón */
+        .btn-acceder {
+          width: 100%;
+          padding: 10px;
+          font-size: 16px;
+          background-color: #333333;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+        }
+    
+        .btn-acceder:hover {
+          background-color: #555555;
+        }
+      </style>
+  </body>

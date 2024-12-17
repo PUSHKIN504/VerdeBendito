@@ -1,0 +1,21 @@
+﻿Id=1;ClienteId=1;ClienteNombre=Jason Jeremy Villanueva;TipoFactura=Contado;Subtotal=50;Detalles=ProductoId=1,NombreProducto=Coca Cola 750ml,Cantidad=2,Precio=25,Subtotal=50
+Id=2;ClienteId=1;ClienteNombre=Jason Jeremy Villanueva;TipoFactura=Contado;Subtotal=50;Detalles=ProductoId=1,NombreProducto=Coca Cola 750ml,Cantidad=1,Precio=25,Subtotal=25|ProductoId=1,NombreProducto=Coca Cola 750ml,Cantidad=1,Precio=25,Subtotal=25
+Id=3;ClienteId=1;ClienteNombre=Jason Jeremy Villanueva;TipoFactura=Contado;Subtotal=175;Detalles=ProductoId=1,NombreProducto=Coca Cola 750ml,Cantidad=7,Precio=25,Subtotal=175
+Id=4;ClienteId=2;ClienteNombre=Juan Almendarez;TipoFactura=Crédito;Subtotal=50;Detalles=ProductoId=7,NombreProducto=Sprite 750ml,Cantidad=1,Precio=25,Subtotal=25|ProductoId=8,NombreProducto=Fanta 750ml,Cantidad=1,Precio=25,Subtotal=25
+Id=5;ClienteId=2;ClienteNombre=Juan Almendarez;TipoFactura=Crédito;Subtotal=50;Detalles=ProductoId=7,NombreProducto=Sprite 750ml,Cantidad=1,Precio=25,Subtotal=25|ProductoId=8,NombreProducto=Fanta 750ml,Cantidad=1,Precio=25,Subtotal=25
+Id=6;ClienteId=1;ClienteNombre=Jason Jeremy Villanueva;TipoFactura=Contado;Subtotal=50;Detalles=ProductoId=7,NombreProducto=Sprite 750ml,Cantidad=1,Precio=25,Subtotal=25|ProductoId=8,NombreProducto=Fanta 750ml,Cantidad=1,Precio=25,Subtotal=25
+Id=7;ClienteId=6;ClienteNombre=Max Villanueva Menjivar;TipoFactura=Contado;Subtotal=705;Detalles=ProductoId=11,NombreProducto=Monster Ultra 473ml,Cantidad=1,Precio=50,Subtotal=50|ProductoId=10,NombreProducto=Old Spice Leña 85g,Cantidad=1,Precio=155,Subtotal=155|ProductoId=9,NombreProducto=Smirnof Vodka 1L,Cantidad=1,Precio=500,Subtotal=500
+Id=8;ClienteId=6;ClienteNombre=Max Villanueva Menjivar;TipoFactura=Contado;Subtotal=500;Detalles=ProductoId=12,NombreProducto=7UP 750ml,Cantidad=20,Precio=25,Subtotal=500
+Id=9;ClienteId=6;ClienteNombre=Max Villanueva Menjivar;TipoFactura=Contado;Subtotal=950;Detalles=ProductoId=11,NombreProducto=Monster Ultra 473ml,Cantidad=19,Precio=50,Subtotal=950
+Id=10;ClienteId=2;ClienteNombre=Juan Almendarez;TipoFactura=Contado;Subtotal=155;Detalles=ProductoId=10,NombreProducto=Old Spice Leña 85g,Cantidad=1,Precio=155,Subtotal=155
+Id=11;ClienteId=1;ClienteNombre=Jason Jeremy Villanueva;TipoFactura=Contado;Subtotal=155;Detalles=ProductoId=10,NombreProducto=Old Spice Leña 85g,Cantidad=1,Precio=155,Subtotal=155
+Id=12;ClienteId=3;ClienteNombre=Roman Lopez;TipoFactura=Contado;Subtotal=155;Detalles=ProductoId=10,NombreProducto=Old Spice Leña 85g,Cantidad=1,Precio=155,Subtotal=155
+Id=13;ClienteId=2;ClienteNombre=Juan Almendarez;TipoFactura=Contado;Subtotal=25;Detalles=ProductoId=8,NombreProducto=Fanta 750ml,Cantidad=1,Precio=25,Subtotal=25
+Id=14;ClienteId=1;ClienteNombre=Jason Jeremy Villanueva;TipoFactura=Contado;Subtotal=420;Detalles=ProductoId=6,NombreProducto=Yeti 1.5L,Cantidad=1,Precio=420,Subtotal=420
+Id=15;ClienteId=3;ClienteNombre=Roman Lopez;TipoFactura=Contado;Subtotal=420;Detalles=ProductoId=6,NombreProducto=Yeti 1.5L,Cantidad=1,Precio=420,Subtotal=420
+Id=16;ClienteId=2;ClienteNombre=Juan Almendarez;TipoFactura=Contado;Subtotal=155;Detalles=ProductoId=10,NombreProducto=Old Spice Leña 85g,Cantidad=1,Precio=155,Subtotal=155
+Id=17;ClienteId=2;ClienteNombre=Juan Almendarez;TipoFactura=Contado;Subtotal=310;Detalles=ProductoId=10,NombreProducto=Old Spice Leña 85g,Cantidad=2,Precio=155,Subtotal=310
+Id=18;ClienteId=3;ClienteNombre=Roman Lopez;TipoFactura=Contado;Subtotal=775;Detalles=ProductoId=10,NombreProducto=Old Spice Leña 85g,Cantidad=5,Precio=155,Subtotal=775
+Id=19;ClienteId=2;ClienteNombre=Juan Almendarez;TipoFactura=Contado;Subtotal=775;Detalles=ProductoId=10,NombreProducto=Old Spice Leña 85g,Cantidad=5,Precio=155,Subtotal=775
+Id=20;ClienteId=2;ClienteNombre=Juan Almendarez;TipoFactura=Contado;Subtotal=310;Detalles=ProductoId=10,NombreProducto=Old Spice Leña 85g,Cantidad=2,Precio=155,Subtotal=310
+Id=21;ClienteId=3;ClienteNombre=Roman Lopez;TipoFactura=Contado;Subtotal=500;Detalles=ProductoId=9,NombreProducto=Smirnof Vodka 1L,Cantidad=1,Precio=500,Subtotal=500

@@ -1,0 +1,200 @@
+<p-toast></p-toast>
+
+<div class="card">
+  <div class="grid" *ngIf="Create">
+    <div class="col-12">
+      <div class="card">
+        <div
+          class="flex"
+          style="width: 100%; margin: 0 auto; display: flex; align-items: center; height: 42px;"
+        >
+          <div style="width: 20%; display: flex; align-items: center; height: 12.5%;">
+            <button
+              (click)="CerrarFormulario()"
+              class="p-button-link"
+              pButton
+              pRipple
+              type="button"
+              label="Regresar"
+              icon="pi pi-arrow-left"
+              style="box-shadow: none !important"
+            ></button>
+          </div>
+          <div style="flex-grow: 1; display: flex; justify-content: center; align-items: center;">
+            <h1 class="text-center mt-4">{{ titulo }}</h1>
+          </div>
+          <div style="width: 20%;"></div>
+        </div>
+        <hr />
+        <br />
+        <div class="grid">
+          <form [formGroup]="form" class="grid col-12 p-fluid p-formgrid">
+            <div class="field col-12 md:col-6">
+              <label for="nombre" style="display: inline-block;">Nombre del Producto</label>
+              <input
+                pInputText
+                formControlName="nombre"
+                placeholder="Ingrese el nombre del producto"
+                [ngClass]="{'ng-invalid ng-dirty': submitted && form.controls['nombre'].invalid}"
+              />
+              <small *ngIf="submitted && form.controls['nombre'].invalid" style="color: red;">
+                El campo es requerido.
+              </small>
+            </div>
+            <div class="field col-12 md:col-6">
+              <label for="precio" style="display: inline-block;">Precio</label>
+              <input
+                pInputText
+                type="number"
+                formControlName="precio"
+                placeholder="Ingrese el precio"
+                [ngClass]="{'ng-invalid ng-dirty': submitted && form.controls['precio'].invalid}"
+              />
+              <small *ngIf="submitted && form.controls['precio'].hasError('required')" style="color: red;">
+                El campo es requerido.
+              </small>
+              <small *ngIf="submitted && form.controls['precio'].hasError('min')" style="color: red;">
+                El precio debe ser un numero positivo.
+              </small>
+            </div>
+            <div class="field col-12 md:col-6">
+              <label for="existencias" style="display: inline-block;">Existencias</label>
+              <input
+                pInputText
+                type="number"
+                formControlName="existencias"
+                placeholder="Ingrese las existencias"
+                [ngClass]="{'ng-invalid ng-dirty': submitted && form.controls['existencias'].invalid}"
+              />
+              <small *ngIf="submitted && form.controls['existencias'].hasError('required')" style="color: red;">
+                El campo es requerido.
+              </small>
+              <small *ngIf="submitted && form.controls['existencias'].hasError('min')" style="color: red;">
+                La cantidad debe ser un numero positivo.
+              </small>
+            </div>
+          </form>
+        </div>
+        <div class="text-right mt-4">
+          <button
+            (click)="Guardar()"
+            class="btn btn-guardar"
+            pButton
+            pRipple
+            type="button"
+            label="Guardar"
+            icon="pi pi-save"
+          ></button>
+          <button
+            (click)="CerrarFormulario()"
+            class="p-button-secondary ml-2"
+            pButton
+            pRipple
+            type="button"
+            label="Cancelar"
+            icon="pi pi-times"
+          ></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid" *ngIf="Index">
+    <div class="col-12">
+      <div class="card">
+        <h1 class="text-center">Productos</h1>
+        <hr />
+        <div class="grid mt-2">
+          <div class="col-12">
+            <button (click)="CrearProducto()" pButton icon="pi pi-plus" label="Nuevo" class="mr-2"></button>
+          </div>
+        </div>
+        <p-table
+          #dt
+          [value]="productos"
+          styleClass="mt-2"
+          responsiveLayout="scroll"
+          [rows]="10"
+          [globalFilterFields]="['nombre', 'precio', 'existencias']"
+          [paginator]="true"
+          [showCurrentPageReport]="true"
+          currentPageReportTemplate="Mostrando {first} al {last} de {totalRecords} entradas"
+          [rowsPerPageOptions]="[10, 25, 50, 100]"
+          [rowHover]="true"
+        >
+          <ng-template pTemplate="caption">
+            <div class="flex flex-column md:flex-row md:justify-content-between md:align-items-center">
+              <span class="block mt-2 md:mt-0 p-input-icon-left">
+                <i class="pi pi-search"></i>
+                <input
+                  pInputText
+                  type="text"
+                  (input)="onGlobalFilter(dt, $event)"
+                  placeholder="Buscar..."
+                  class="w-full sm:w-auto"
+                />
+              </span>
+
+              <div class="registros">
+                <p-dropdown
+                  [options]="dt.rowsPerPageOptions"
+                  [(ngModel)]="dt.rows"
+                  [style]="{ 'margin-right': '5px' }"
+                  [autoWidth]="false"
+                ></p-dropdown>
+                <span style="font-weight: 700; margin-top: 7px;">Registros por página</span>
+              </div>
+            </div>
+          </ng-template>
+
+          <ng-template pTemplate="header">
+            <tr>
+              <th class="text-center">Acciones</th>
+              <th class="text-center">Nombre</th>
+              <th class="text-center">Precio</th>
+              <th class="text-center">Existencias</th>
+            </tr>
+          </ng-template>
+
+          <ng-template pTemplate="body" let-producto>
+            <tr (click)="selectProducto(producto)">
+              <td class="text-center">
+                <p-splitButton
+                  class="custom-splitbutton"
+                  label="Acciones"
+                  icon="pi pi-cog"
+                  [model]="items"
+                  styleClass="p-button-secondary"
+                  appendTo="body"
+                ></p-splitButton>
+              </td>
+
+              <td class="text-center">{{ producto.nombre }}</td>
+              <td class="text-center">{{ producto.precio }}</td>
+              <td class="text-center">{{ producto.existencias }}</td>
+            </tr>
+          </ng-template>
+
+          <ng-template pTemplate="emptymessage">
+            <tr>
+              <td colspan="4" class="text-center">No se encontraron registros.</td>
+            </tr>
+          </ng-template>
+        </p-table>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<p-dialog [(visible)]="Delete" header="Confirmación" [modal]="true" [style]="{width:'450px'}">
+  <div class="flex align-items-center justify-content-center">
+      <i class="pi pi-exclamation-triangle mr-3" style="font-size: 2rem"></i>
+      <span>¿Está seguro de eliminar el Producto <strong style="text-decoration: underline; font-weight: bold;">{{ this.selectedProducto?.nombre }}</strong>?</span>
+  </div>
+  <ng-template pTemplate="footer">
+      <button pButton pRipple icon="pi pi-trash" type="button" label="Eliminar" (click)="eliminarProducto()"></button>
+      <button pButton pRipple icon="pi pi-times" class="p-button-outlined p-button-primary" label="Cancelar" (click)="Delete = false"></button>
+  </ng-template>
+</p-dialog>

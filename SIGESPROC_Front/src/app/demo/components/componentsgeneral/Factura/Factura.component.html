@@ -1,0 +1,119 @@
+<div class="card">
+  <h2 class="text-center">Generar Factura </h2>
+  <div class="grid">
+
+  <form [formGroup]="form"  class="grid col-12 p-fluid p-formgrid">
+      <div class="field col-12 md:col-6">
+        <label for="clienteNombre" style="display: inline-block;">Cliente</label>
+        <p-autoComplete
+        [dropdown]="true"
+        [ngClass]="{'ng-invalid ng-dirty': (submitted && form.controls['clienteNombre'].invalid) }"
+        [forceSelection]="true"
+        formControlName="clienteNombre"
+        [suggestions]="clientes"
+        (completeMethod)="cargarClientes()"
+        (onSelect)="onClienteSelect($event)"
+        placeholder="Seleccione un cliente"
+        field="nombre"
+      ></p-autoComplete>
+      
+      </div>
+      <div class="field col-12 md:col-6">
+        <label for="tipoFactura" style="display: inline-block;">Tipo de Factura</label>
+        <p-dropdown
+          formControlName="tipoFactura"
+          [ngClass]="{'ng-invalid ng-dirty': (submitted && form.controls['tipoFactura'].invalid) }"
+          [options]="tiposFactura"
+          (onChange)="onTipoFacturaChange()"
+          placeholder="Seleccione tipo de factura"
+        ></p-dropdown>
+      </div>
+  </form>
+</div>
+<div class="p-message p-message-info" style="margin-bottom: 1rem;">
+  <i class="pi pi-info-circle" style="margin-right: 0.5rem;"></i>
+  <span>Esta tabla se habilitara una vez se hayan llenado los datos del cliente y el tipo de factura.</span>
+</div>
+  <h3 class="mt-4">Lista de Productos</h3>
+<div [ngClass]="{'table-disabled': !esFormularioCompleto()}">
+  <p-table [value]="productos" responsiveLayout="scroll" [rows]="10" [paginator]="true">
+    <ng-template pTemplate="header">
+      <tr>
+        <th class="text-center">Seleccionar</th>
+        <th class="text-center">Nombre</th>
+        <th class="text-center">Precio</th>
+        <th class="text-center">Existencias</th>
+        <th class="text-center">Cantidad</th>
+      </tr>
+    </ng-template>
+
+    <ng-template pTemplate="body" let-producto>
+      <tr>
+        <td class="text-center">
+          <p-checkbox
+            [(ngModel)]="producto.seleccionado"
+            binary="true"
+            (onChange)="toggleProductoSeleccionado(producto)"
+            [disabled]="producto.existencias === 0 || !esFormularioCompleto()"
+          ></p-checkbox>
+          <small *ngIf="producto.existencias === 0" style="color: red; display: block;">
+            Sin existencias
+          </small>
+        </td>
+        <td class="text-center">{{ producto.nombre }}</td>
+        <td class="text-center">{{ producto.precio | currency }}</td>
+        <td class="text-center">{{ producto.existencias }}</td>
+        <td class="text-center">
+          <input
+            type="number"
+            pInputText
+            [min]="1"
+            [max]="producto.existencias"
+            [(ngModel)]="producto.cantidad"
+            (input)="actualizarCantidad(producto)"
+            (keypress)="validarEntradaNumerica($event)"
+            [disabled]="!producto.seleccionado || !esFormularioCompleto()"
+            style="width: 80px; padding: 8px; text-align: center; font-size: 1rem;"
+          />
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>
+
+  
+  
+
+  <div class="grid mt-4">
+    <div class="col-12 text-right">
+      <p><strong>Subtotal:</strong> {{ subtotal | currency }}</p>
+      <p><strong>Impuesto (15%):</strong> {{ impuesto | currency }}</p>
+      <p><strong>Total:</strong> {{ total | currency }}</p>
+    </div>
+  </div>
+  <div class="text-right mt-4">
+    <button
+      pButton
+      type="button"
+      label="Limpiar Factura"
+      class="p-button-secondary mr-2"
+      icon="pi pi-refresh"
+      (click)="limpiarFactura()"
+    ></button>
+  
+    <button
+      pButton
+      type="button"
+      label="Generar Factura"
+      class="p-button-success"
+      icon="pi pi-check"
+      (click)="generarFactura()"
+    ></button>
+  </div>
+</div>
+<style>
+  .table-disabled {
+  pointer-events: none; 
+  opacity: 0.6; 
+}
+</style>

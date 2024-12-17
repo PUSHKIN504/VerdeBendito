@@ -1,0 +1,10 @@
+Id=1;Nombre=Coca Cola 750ml;Existencias=25;Precio=25;Total=625
+Id=2;Nombre=Pasta Regina 500g;Existencias=12;Precio=36.8;Total=441.6
+Id=4;Nombre=Old Spice Fresh 85g;Existencias=20;Precio=125;Total=2500
+Id=6;Nombre=Yeti 1.5L;Existencias=13;Precio=420;Total=5460
+Id=7;Nombre=Sprite 750ml;Existencias=17;Precio=25;Total=425
+Id=8;Nombre=Fanta 750ml;Existencias=16;Precio=25;Total=400
+Id=9;Nombre=Smirnof Vodka 1L;Existencias=18;Precio=500;Total=9000
+Id=10;Nombre=Old Spice Leña 85g;Existencias=1;Precio=155;Total=155
+Id=11;Nombre=Monster Ultra 473ml;Existencias=0;Precio=50;Total=0
+Id=12;Nombre=7UP 750ml;Existencias=0;Precio=25;Total=0

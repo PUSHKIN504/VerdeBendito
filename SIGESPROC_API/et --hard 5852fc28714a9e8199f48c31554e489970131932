@@ -1,0 +1,2979 @@
+[33mcommit fd45ade72be12f48addf5ac0c923ada5ee73a303[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmindy[m[33m)[m
+Merge: 5852fc2 8e3f6dc
+Author: MFaviola <165686215+MFaviola@users.noreply.github.com>
+Date:   Sun Aug 11 12:24:03 2024 -0600
+
+    Merge branch 'jafeth' into mindy
+
+[33mcommit 5852fc28714a9e8199f48c31554e489970131932[m
+Merge: bea471a 7996fc9
+Author: MFaviola <165686215+MFaviola@users.noreply.github.com>
+Date:   Sun Aug 11 11:07:03 2024 -0600
+
+    Merge branch 'yordin'into mindy
+
+[33mcommit 8e3f6dcadd0739acf9366123068973239f3e5b0d[m[33m ([m[1;31morigin/jafeth[m[33m)[m
+Merge: 4a08fb8 559d22b
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Sat Aug 10 23:14:37 2024 -0700
+
+    Merge branch 'eduardo' into jafeth
+
+[33mcommit 559d22bc183ab5a15c1a1f18fea67270fe8bba17[m
+Merge: aa563b3 492ef98
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sat Aug 10 17:29:21 2024 -0600
+
+    Merge remote-tracking branch 'origin/Hector' into eduardo
+
+[33mcommit aa563b33b04c5b3ad0aaf978ea88cbcc535e8ccc[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sat Aug 10 17:28:24 2024 -0600
+
+    feat(Cotizaciones):Funcionalidad de Equipos de seguridad
+
+[33mcommit 492ef98661a941e7791427546f8f9f797998dbfb[m
+Author: Hector11S <161340531+Hector11S@users.noreply.github.com>
+Date:   Sat Aug 10 17:08:44 2024 -0600
+
+    fix
+    
+    cambios
+
+[33mcommit bea471a160b7094684026082ce7b0e03787d8b47[m[33m ([m[1;31morigin/mindy[m[33m)[m
+Author: MFaviola <165686215+MFaviola@users.noreply.github.com>
+Date:   Sat Aug 10 02:59:12 2024 -0600
+
+    Fix(Bien Raiz):agrege campo de precio al crud de bien raiz
+
+[33mcommit fa9d5f2296235a8ee2ac290662e76d9f5af26802[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sat Aug 10 00:12:10 2024 -0600
+
+    feat(cotizaciones):En proceso equipos de seguridad
+
+[33mcommit d2cf28099361279857e1c9501df6548118921d2a[m
+Merge: cdcfb4c 74301b6
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Fri Aug 9 10:43:04 2024 -0600
+
+    Merge remote-tracking branch 'origin/Hector' into eduardo
+
+[33mcommit cdcfb4c46fce7d894cb8a7a1ed82ccd08a1e40d1[m
+Merge: 1f984e2 291f640
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Fri Aug 9 09:47:13 2024 -0600
+
+    Merge remote-tracking branch 'origin/sua' into eduardo
+
+[33mcommit 7996fc96b0dc7687b9b2c181b1f19b669e438b11[m[33m ([m[1;31morigin/yordin[m[33m)[m
+Author: VJEB <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Fri Aug 9 08:50:05 2024 -0600
+
+    feat(bien raiz): nuevo endpoint de listar pero identificando el estado del terreno
+
+[33mcommit 01de365855dfd7f767ff69da5d56956a1bd40c17[m
+Merge: b9b85e5 4a08fb8
+Author: VJEB <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Fri Aug 9 07:44:51 2024 -0600
+
+    Merge branch 'jafeth' into yordin
+
+[33mcommit b9b85e5ab67f9556139fd15236b02eac5bfc20cc[m
+Author: VJEB <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Fri Aug 9 07:44:29 2024 -0600
+
+    docs(bienes y raices):  notmapped
+
+[33mcommit 1f984e243594e46ee337522757ffd3d29f36bf6d[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Fri Aug 9 03:55:58 2024 -0600
+
+    feat(cotizaciones):eliminado y tabla de maquinaria
+
+[33mcommit 4a08fb842ddbfe84590134c08a5bfb7e9a4154f5[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Thu Aug 8 22:12:26 2024 -0700
+
+    docs(bienesraices)agregando una nueva funcion para el terreno
+
+[33mcommit 74301b637a7b40f183e2fde9abcb2e45e16d403f[m
+Author: Hector11S <161340531+Hector11S@users.noreply.github.com>
+Date:   Thu Aug 8 20:26:40 2024 -0600
+
+    fix
+    
+    cambios
+
+[33mcommit 291f640d007b871fd99d74860297716b20b74b18[m
+Merge: 31d35b3 9edd47f
+Author: seucedaa <134754822+seucedaa@users.noreply.github.com>
+Date:   Thu Aug 8 19:07:41 2024 -0600
+
+    Merge branch 'alejandra' into sua
+
+[33mcommit fea84f0fda3f66689fddeea73e50bd14e96c80ab[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Aug 8 18:50:00 2024 -0600
+
+    fix(merge)
+
+[33mcommit d5c21dd5605649171cfba325e58bd3296eca2451[m
+Merge: ba46e3a 4987fa0
+Author: Hector11S <161340531+Hector11S@users.noreply.github.com>
+Date:   Thu Aug 8 18:36:44 2024 -0600
+
+    Merge remote-tracking branch 'origin/madian' into Hector
+
+[33mcommit ba46e3a80b6eb32edb4a2d26e6460de32d159f42[m
+Author: Hector <enriquebarahonayt14@gmail.com>
+Date:   Thu Aug 8 16:38:23 2024 -0600
+
+    fix
+    
+    cambios
+
+[33mcommit d7448e1ceeeb9abd85639a243c6a2a19b6f334a9[m
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Thu Aug 8 16:22:30 2024 -0600
+
+    feat(Maquinaria)
+
+[33mcommit 4987fa042eb46097937deb5201b726c76cfb513f[m
+Merge: 7f24fb1 8f29dd3
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Thu Aug 8 11:11:34 2024 -0600
+
+    Merge remote-tracking branch 'origin/enderson' into madian
+
+[33mcommit 7f24fb1c87be84b6a89f4df3cfccdac85d81d79b[m
+Merge: 4a16f15 bfedc85
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Thu Aug 8 11:04:36 2024 -0600
+
+    Merge branch 'pavel' into madian
+
+[33mcommit bfedc85c64a4b77543e1c8bfc89c2d25e1dc8751[m
+Author: PavelPonce <136554909+PavelPonce@users.noreply.github.com>
+Date:   Thu Aug 8 10:01:51 2024 -0600
+
+    refactor(gestionriesgo)
+
+[33mcommit 8f29dd3eca5469aef7519d96432929a725a45adb[m[33m ([m[1;31morigin/enderson[m[33m, [m[1;31morigin/eduardo[m[33m)[m
+Merge: ad12e11 4a16f15
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Thu Aug 8 08:18:13 2024 -0600
+
+    Merge branch 'madian' into eduardo
+
+[33mcommit ad12e1124b198d784c44cce69450e1d5e2fb8a01[m
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Thu Aug 8 07:38:56 2024 -0600
+
+    fix(merge)
+
+[33mcommit f14b1490f305aa51b2b950143cadce303d5157b0[m
+Merge: b395e2c d60f78b
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Thu Aug 8 07:35:59 2024 -0600
+
+    Merge remote-tracking branch 'origin/enderson' into eduardo
+
+[33mcommit 4a16f15fd439cde4dd5680e92428d0f85096fcfc[m[33m ([m[1;31morigin/madian[m[33m)[m
+Merge: aeb5df4 d1fcc3d
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Thu Aug 8 03:18:18 2024 -0600
+
+    Merge remote-tracking branch 'origin/jafeth' into madian
+
+[33mcommit d60f78bf7204268040d6c9fbc85e4017658ae71e[m
+Author: Enderson9 <161340614+Enderson9@users.noreply.github.com>
+Date:   Thu Aug 8 02:04:34 2024 -0600
+
+    feat:(Proyecto)
+    
+    Nuevoendpoint
+
+[33mcommit aeb5df462b99fba1600e37139a48b918c1a37c47[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Aug 8 01:45:48 2024 -0600
+
+    fix(gestiones riesgos)
+
+[33mcommit 80636cd238bd5c047784b718cb86b8e97cd03672[m
+Merge: 0d6abaf b395e2c
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Aug 8 01:35:52 2024 -0600
+
+    Merge branch 'eduardo' into madian
+
+[33mcommit d1fcc3d698370558eff9837fb31f0b011d874fc3[m
+Merge: 3557e81 ef10eff
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Thu Aug 8 00:31:25 2024 -0700
+
+    Merge branch 'yordin' into jafeth
+
+[33mcommit ef10effa1cff2d30fbc8aa8af186787a8f196f89[m
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Thu Aug 8 01:31:11 2024 -0600
+
+    imagen
+    
+    :)
+
+[33mcommit b395e2cd1dd66a942247f8e8a375a3512ebb770c[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Aug 8 01:28:51 2024 -0600
+
+    fix(amerge)
+
+[33mcommit 0d6abaf095068e8b186b8617f33ae281eeff8884[m
+Merge: c9aac74 b7087cf
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Thu Aug 8 01:24:20 2024 -0600
+
+    Merge remote-tracking branch 'origin/pavel' into madian
+
+[33mcommit c9aac744879000b72ae117ff49b2676f717485d8[m
+Merge: 664f386 861e80c
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Thu Aug 8 00:18:04 2024 -0600
+
+    Merge remote-tracking branch 'origin/victor' into madian
+
+[33mcommit 664f3864ad49a98fb4b71dafafc4743687e41534[m
+Merge: 8fe2ac5 e772cf9
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Thu Aug 8 00:15:24 2024 -0600
+
+    Merge remote-tracking branch 'origin/jason' into madian
+
+[33mcommit 8599426250af6067b92b1b4e8fd7367ba771d230[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Aug 8 00:09:06 2024 -0600
+
+    fix(merge)
+
+[33mcommit 8fe2ac501a622afc5fe226aeaeba2b07fcb40f12[m
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Thu Aug 8 00:08:54 2024 -0600
+
+    feat(planilla): continuacion de planilla
+
+[33mcommit 6d5ff8a42822e5b8ae8e2370086b6f75ef2a7a17[m
+Merge: f31e828 9edd47f
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Aug 8 00:08:03 2024 -0600
+
+    Merge branch 'alejandra' into eduardo
+
+[33mcommit f31e82869273028fa14bdacfeeb804ccc1233c28[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Aug 8 00:02:05 2024 -0600
+
+    agag
+
+[33mcommit e5f68bccc090cb1be6349629eed0c8bb2ac34e3c[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Aug 8 00:01:43 2024 -0600
+
+    merge
+
+[33mcommit 861e80cc9944074da227bc59118b716f0227f73e[m[33m ([m[1;31morigin/victor[m[33m)[m
+Author: Victor Espinoza <vespinozabenitez@gmail.com>
+Date:   Wed Aug 7 23:46:31 2024 -0600
+
+    fix(prestamos) listar
+
+[33mcommit 8263e5ccd0c17df2500be1c5064ce5395289fc92[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Wed Aug 7 23:28:06 2024 -0600
+
+    docs(cotizacion):Documentado
+
+[33mcommit b7087cf03537559fe16325dec421781e4912525f[m
+Author: PavelPonce <136554909+PavelPonce@users.noreply.github.com>
+Date:   Wed Aug 7 23:08:15 2024 -0600
+
+    fix(gestionriesgo)
+    
+    parametro de delete
+
+[33mcommit 64465fb2822cd4ef673f646a80b64828ed511ce7[m
+Merge: 7823e7f 45975ed
+Author: PavelPonce <136554909+PavelPonce@users.noreply.github.com>
+Date:   Wed Aug 7 23:05:29 2024 -0600
+
+    Merge remote-tracking branch 'origin/Dany' into pavel
+
+[33mcommit 7823e7fe17ed2c4a3ffdc91f82c816324f90df98[m
+Author: PavelPonce <136554909+PavelPonce@users.noreply.github.com>
+Date:   Wed Aug 7 23:03:36 2024 -0600
+
+    refactor(gestionriesgo)
+    
+    Reestructura de tabla de Gestion de Riesgos
+
+[33mcommit 3557e8186d8cfa7ef04db80efd5f0eff049f3acf[m
+Merge: 415c960 19d4779
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Wed Aug 7 21:22:24 2024 -0700
+
+    Merge branch 'yordin' into jafeth
+
+[33mcommit 19d47796129e22cf374db785616453f8893ddc27[m
+Author: Yordin Sanchez <yordin32sanchez@gmail.com>
+Date:   Wed Aug 7 21:33:13 2024 -0600
+
+    imagenes
+
+[33mcommit 4a2549c6598728b0f8439e6598855a4e2af2ef84[m
+Author: Yordin Sanchez <yordin32sanchez@gmail.com>
+Date:   Wed Aug 7 20:18:18 2024 -0600
+
+    docs(bien raiz): cambios en diferente archivos de proceso de venta de bien raices
+
+[33mcommit 1af5926f756c5d00a9eb0baf387ed3fe9da81a9e[m
+Author: Pace <pavelponce03@gmail.com>
+Date:   Wed Aug 7 16:30:15 2024 -0600
+
+    refactor(documento)
+    
+    Implementación de nuevos campos en documentos
+
+[33mcommit 45975ed3d8154265ab640850bd12efb4ce5fbfdd[m[33m ([m[1;31morigin/Dany[m[33m)[m
+Author: SabillonJ <145422491+DanyFranc0@users.noreply.github.com>
+Date:   Wed Aug 7 16:25:44 2024 -0600
+
+    fix(General): NotMapped de modelos
+
+[33mcommit 0498093d0c5439ddce8f86a658fae0186fb0cafe[m
+Author: kevin matta <vespinozabenitez@gmail.com>
+Date:   Wed Aug 7 16:22:04 2024 -0600
+
+    feat(prestamos) insertar abonos
+
+[33mcommit 8a0371d6df3ba10b987d93884b1f1be9e3ae6fd2[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Wed Aug 7 15:52:55 2024 -0600
+
+    fix(merge)
+
+[33mcommit 511308534066210bca482f544be256e447255e87[m
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Wed Aug 7 15:23:15 2024 -0600
+
+    feat(planilla): continuacion de planilla
+
+[33mcommit 9512e8fad64a265694de0067fc81bdac3c7dba92[m
+Merge: 1a8a690 054524f
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Wed Aug 7 15:10:59 2024 -0600
+
+    Merge branch 'manuel' into eduardo
+
+[33mcommit 1a8a690f002274a8da3015b188c998d74feb6dab[m
+Merge: 731d0d9 5233c5a
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Wed Aug 7 15:09:58 2024 -0600
+
+    Merge remote-tracking branch 'origin/Hector' into eduardo
+
+[33mcommit 1af86e9800b595a7cd7ae92c116e958760e131e8[m
+Author: Pace <pavelponce03@gmail.com>
+Date:   Wed Aug 7 15:05:13 2024 -0600
+
+    refactor(documento)
+    
+    Adicion de campos
+
+[33mcommit 731d0d90bd3966f86d14df9a4dfa879c70f8515c[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Wed Aug 7 15:01:52 2024 -0600
+
+    Merge remote-tracking branch 'origin/fernando' into eduardo
+
+[33mcommit 6992ff129a131cb4e31fc620e817b25adb457f51[m
+Merge: eb3b1b1 48a3746
+Author: SabillonJ <145422491+DanyFranc0@users.noreply.github.com>
+Date:   Wed Aug 7 12:50:53 2024 -0600
+
+    Merge remote-tracking branch 'origin/madian' into Dany
+
+[33mcommit d7d19a52f9d13e7033e35ca7872d5b36c09c9508[m
+Author: Mine25-afk <161340614+Enderson9@users.noreply.github.com>
+Date:   Wed Aug 7 12:46:25 2024 -0600
+
+    feat:(Proyectos)
+    
+    Notmapped
+
+[33mcommit 415c9605dc1bc27a29eb9e25b4719d96e0c7b7b9[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Wed Aug 7 12:24:24 2024 -0600
+
+    cambios en el appsettings
+
+[33mcommit 788a00ebeaec2d41fb68a78b7a2310442d1f69d1[m
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Wed Aug 7 12:10:42 2024 -0600
+
+    feat(maquinaria)
+
+[33mcommit 054524f88839ba5ce61e1a757546118e185aeff1[m
+Merge: 83d3b10 d72d3e4
+Author: Manuel <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Wed Aug 7 12:06:26 2024 -0600
+
+    Merge branch 'Hector' into manuel
+
+[33mcommit 5233c5abcfd392021d84f322cf9e048dfeaceb4c[m[33m ([m[1;31morigin/Hector[m[33m)[m
+Author: Hector <enriquebarahonayt14@gmail.com>
+Date:   Wed Aug 7 12:01:59 2024 -0600
+
+    fix
+    
+    cambios
+
+[33mcommit 9edd47fa5ccb6c1944a9284a7e9cf4326ad2ccd0[m[33m ([m[1;31morigin/alejandra[m[33m)[m
+Author: Alesoliss <159864507+Alesoliss@users.noreply.github.com>
+Date:   Wed Aug 7 10:51:25 2024 -0600
+
+    fix(Fletes, Insumos):Agregacion endpoint de listado general de actividades por proyecto sin filtrado, y modificacion viewmodel de fletes
+
+[33mcommit 7e496c7a950e5008ff83ae64aa3bf65502301737[m
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Wed Aug 7 10:16:29 2024 -0600
+
+    feat(planilla): continuacion de planilla
+
+[33mcommit b00807568400474243e75b7270413182337345c9[m
+Merge: 5fb61f0 645bde9
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Wed Aug 7 09:39:03 2024 -0600
+
+    Merge branch 'yordin' into jafeth
+
+[33mcommit 5fb61f0a30de76e70a4335c4d232e79141480096[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Wed Aug 7 09:38:11 2024 -0600
+
+    cambio el estado del terreno
+
+[33mcommit 645bde9fba15ed3d025dce59e592884227dc9962[m
+Author: VJEB <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Wed Aug 7 09:37:32 2024 -0600
+
+    docs(beines y raices): areglo de errores
+
+[33mcommit 3a2bb885213fd9c0ffdc15a0e3e1ab2645f962d7[m
+Author: Mine25-afk <161340614+Enderson9@users.noreply.github.com>
+Date:   Wed Aug 7 08:02:48 2024 -0600
+
+    feat:(tbPresupuestoDetalle)
+    
+    NotMapped
+
+[33mcommit 90675da5b3d7893ce4370179c2f1bf92039589b7[m
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Wed Aug 7 07:59:33 2024 -0600
+
+    Merge branch 'madian' into eduardo
+
+[33mcommit 75ee33e62d3482d0e9f0e3f428ff18bd7f799dab[m
+Merge: f0475b4 73d5a59
+Author: VJEB <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Wed Aug 7 07:56:08 2024 -0600
+
+    Merge branch 'jafeth' into yordin
+
+[33mcommit f0475b4354fe01b77939be0293de9b824f125cc9[m
+Merge: a98168e 31d35b3
+Author: VJEB <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Wed Aug 7 07:54:08 2024 -0600
+
+    Merge remote-tracking branch 'origin/madian' into yordin
+
+[33mcommit 73d5a596fdfc10237989899faa849b187ca20484[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Wed Aug 7 07:50:50 2024 -0600
+
+    docs(bienesraices)añadiendo los procedimentos almacenados de tipo de documento y modificando el documento controlador
+
+[33mcommit 0a49a9f02400ec97b79a70fbc260204af29a0509[m
+Merge: c008bb2 31d35b3
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Wed Aug 7 06:43:10 2024 -0600
+
+    Merge branch 'madian' into jafeth
+
+[33mcommit c008bb250c3544a9b12eb8212a0f6df56ec1127e[m
+Merge: 8f5cdac 48a3746
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Wed Aug 7 06:39:02 2024 -0600
+
+    Merge branch 'madian' into jafeth
+
+[33mcommit 31d35b3f7052942cdf8407cde7d201f0f1e6742a[m[33m ([m[1;31morigin/sua[m[33m)[m
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Wed Aug 7 03:32:39 2024 -0600
+
+    feat(planilla): continuacion de planilla
+
+[33mcommit 0e95959740e5730cf3d82f3cb8c7d5be8e50006d[m
+Author: Enderson9 <161340614+Enderson9@users.noreply.github.com>
+Date:   Wed Aug 7 03:07:47 2024 -0600
+
+    feat:(Proyecto)
+    
+    Nuevo endpoint
+
+[33mcommit a98168e9cdeeab16cbc2b0bf13dafbbb863c3fce[m
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Wed Aug 7 00:46:31 2024 -0600
+
+    docs(bienes y raices): modifcicacion de controladore y hice notmapped
+
+[33mcommit 6877c0dfe235be53c7e06f06322d13d0fbe757ee[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Tue Aug 6 23:24:22 2024 -0600
+
+    FEAT(COTIZACION)90%
+
+[33mcommit bd1ec28ea53897771fa729293c806dda5324ef30[m
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Tue Aug 6 22:53:59 2024 -0600
+
+    feat(sistema): se hizo ingenieria inversa
+
+[33mcommit 83d3b107374b80bc256bb9f927831b4117629564[m
+Author: jahirmjlg <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Tue Aug 6 22:06:33 2024 -0600
+
+    feat(proyecto, general) comentarios
+
+[33mcommit 0a5c7034051076104e314faf31fa9f38fd6035c6[m
+Merge: bac08d9 eb3b1b1
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Tue Aug 6 21:04:56 2024 -0600
+
+    Merge remote-tracking branch 'origin/Dany' into madian
+
+[33mcommit bac08d909e46fee07b816f0d3ef47804776aaabb[m
+Merge: 9a0e57c e7e2a41
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Tue Aug 6 20:58:58 2024 -0600
+
+    Merge remote-tracking branch 'origin/pavel' into madian
+
+[33mcommit 9a0e57cb34670232580882a3344e509023bc990d[m
+Merge: 04e3fe1 2b49bb0
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Tue Aug 6 20:51:53 2024 -0600
+
+    Merge remote-tracking branch 'origin/victor' into madian
+
+[33mcommit 04e3fe11bcc1a5d41a66dc145e51cb1bdad7d824[m
+Merge: f3738e5 a10a638
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Tue Aug 6 20:49:59 2024 -0600
+
+    Merge remote-tracking branch 'origin/eduardo' into madian
+
+[33mcommit d72d3e4c4ad3a6a322cc788086b08f44e25b33c7[m
+Author: Hector11S <161340531+Hector11S@users.noreply.github.com>
+Date:   Tue Aug 6 20:22:58 2024 -0600
+
+    fix
+    
+    cambios
+
+[33mcommit a10a638dd8b9a5dcbe85727a5118c5ee69d70cdf[m
+Merge: 60a15c4 6709473
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Tue Aug 6 19:10:27 2024 -0600
+
+    Merge remote-tracking branch 'origin/sua' into eduardo
+
+[33mcommit 60a15c42f345943bf4330e442ac3282ce4d15f5f[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Tue Aug 6 19:10:18 2024 -0600
+
+    feat(cotizacion):Funcionalidad de horas
+
+[33mcommit 6709473b2921e5962fa01e3de4ae7e91df749abd[m
+Author: seucedaa <134754822+seucedaa@users.noreply.github.com>
+Date:   Tue Aug 6 18:56:17 2024 -0600
+
+    fix(ape)
+
+[33mcommit 64a849b06fb10c73e44892d45d8407a86cc99367[m
+Merge: e60709a 29a630e
+Author: seucedaa <134754822+seucedaa@users.noreply.github.com>
+Date:   Tue Aug 6 18:51:15 2024 -0600
+
+    Merge branch 'alejandra' into sua
+
+[33mcommit e60709a3601dfa471395f8000a55bf120b41423a[m
+Author: seucedaa <134754822+seucedaa@users.noreply.github.com>
+Date:   Tue Aug 6 18:48:57 2024 -0600
+
+    feat(listaractividadesporetapa)
+
+[33mcommit aad588b440f61a86e0afcdd7197fafa9a6ba6fc0[m
+Author: Manuel <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Tue Aug 6 16:33:48 2024 -0600
+
+    feat(general) comentarios
+
+[33mcommit a60910682233f244daa68f8a080ed80201fa5cd9[m
+Author: Manuel <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Tue Aug 6 16:20:57 2024 -0600
+
+    feat(general) comentarios
+
+[33mcommit eb3b1b1decc36d1d7cd9274abcf85e6f91adc75a[m
+Author: SabillonJ <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Tue Aug 6 16:14:11 2024 -0600
+
+    fix(Cliente): campos del enpoint de actualizar
+
+[33mcommit f3738e519c601fa77fee4ac27c58656e488e658c[m
+Author: Jason Jeremy Villanueva Sanchez <madian.reyes212006@gmail.com>
+Date:   Tue Aug 6 16:08:59 2024 -0600
+
+    feat(planilla): continuacion de planilla
+
+[33mcommit fd003cf555fa9ad7efff3b64cb0c323fdde55276[m
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Tue Aug 6 11:55:55 2024 -0600
+
+    feat(Cotizacion) Funcionalidad crear
+
+[33mcommit 87ff49def02a4951e1b599cd908110a81d4262db[m
+Author: Hector <enriquebarahonayt14@gmail.com>
+Date:   Tue Aug 6 11:53:47 2024 -0600
+
+    fix cambios
+
+[33mcommit 02cec1d80ac7e7fe3ed88e5306637b589fca8c27[m
+Merge: f13dfe7 8f5cdac
+Author: VJEB <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Tue Aug 6 11:28:19 2024 -0600
+
+    Merge remote-tracking branch 'origin/jafeth' into yordin
+
+[33mcommit 8f5cdac99c0f4fbbff1db33b692e4ab575b98284[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Tue Aug 6 11:27:07 2024 -0600
+
+    docs(bienesraices)haciendole notmapped a un nuevo campio de la tabla de terrenos
+
+[33mcommit e9e511a60b6005633d38cfb7f96b84f155f50ba6[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Tue Aug 6 08:44:14 2024 -0600
+
+    fix(bienesraices)Modificando el eliminar , el actualizar tambien modifique el repositorio y el controlador
+
+[33mcommit 2b49bb01323548a596704b38892da53b4681536f[m
+Author: Victor Espinoza <vespinozabenitez@gmail.com>
+Date:   Tue Aug 6 08:30:06 2024 -0600
+
+    feat(empleados) añadir campo de fotografía
+
+[33mcommit ebcc7d043386323c956b88f690b42c361cb7654b[m
+Merge: 963129f 39de19e
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Tue Aug 6 07:33:40 2024 -0600
+
+    Merge remote-tracking branch 'origin/enderson' into eduardo
+
+[33mcommit b99330e3d55a14a69f724fb5aa34741e50c8d0ed[m
+Merge: 372f953 3ca6fbe
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Tue Aug 6 07:31:41 2024 -0600
+
+    Merge remote-tracking branch 'origin/mindy' into jafeth
+
+[33mcommit f13dfe7d993381e046887e92f03985e4a071de80[m
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Mon Aug 5 23:39:24 2024 -0600
+
+    docs(bienes y raices) proceso de venta de bienes y raices
+
+[33mcommit 963129f709a04b532c34b9aa5e9c263ce8ee52f2[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Mon Aug 5 23:38:03 2024 -0600
+
+    feat(cotizacion):Funcionalidad de creacion de categoria,materiales,subcategorias y unidades de medida
+
+[33mcommit 3ca6fbec7c9ee5da136a85da8133efc6f876951a[m
+Author: MFaviola <165686215+MFaviola@users.noreply.github.com>
+Date:   Mon Aug 5 22:02:13 2024 -0600
+
+    feat(Bienes Raices):CRUD tipo de documentos
+
+[33mcommit 19bac856deace5513fce92cd4a8933673a9e803f[m
+Author: Hector11S <161340531+Hector11S@users.noreply.github.com>
+Date:   Mon Aug 5 21:54:37 2024 -0600
+
+    fix
+    
+    cambios
+
+[33mcommit a5b5eae4259f67784dce682f1aa12740617b0790[m
+Merge: 0fbaf27 af02b8d
+Author: seucedaa <134754822+seucedaa@users.noreply.github.com>
+Date:   Mon Aug 5 18:12:45 2024 -0600
+
+    Merge branch 'alejandra' into sua
+
+[33mcommit 29a630ed843041ce987cfa0db1f20b058dcd0199[m
+Author: Alesoliss <159864507+Alesoliss@users.noreply.github.com>
+Date:   Mon Aug 5 18:07:03 2024 -0600
+
+    fix(Fletes): Arreglo de campo directo referenciado en encabezado de proyecto a id de actividad por etapa
+
+[33mcommit 9711c45a421733739e85fff94501ecc069338875[m
+Author: Manuel <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Mon Aug 5 16:14:54 2024 -0600
+
+    fix(general, proyecto) eliminar mensaje
+
+[33mcommit 67306e3fbfa21303cdb9447e5e1353bb0462ddce[m
+Author: SabillonJ <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Mon Aug 5 15:11:12 2024 -0600
+
+    fix(General): EndPoints de eliminar
+
+[33mcommit 48a3746cc5ab3611af2118c1eb5881cd1669eaab[m
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Mon Aug 5 15:09:46 2024 -0600
+
+    feat(planilla): modificaciones de la planilla de empleados
+
+[33mcommit e772cf90965b420f3e5bb2b84160dc540a37453e[m[33m ([m[1;31morigin/jason[m[33m)[m
+Author: Jason <jasonjeremy504@gmail.com>
+Date:   Mon Aug 5 13:50:21 2024 -0600
+
+    Fix(ListarViaticos)
+
+[33mcommit c69771df6b3a5707025f613f29ee05688aec37e0[m
+Author: SabillonJ <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Mon Aug 5 11:23:18 2024 -0600
+
+    fix(General):  nombres de los NotMapped
+
+[33mcommit e7e2a4132830427b44e0bb0d5dc3cbde0bea5f83[m
+Merge: 37e23e2 88cec9d
+Author: Pace <pavelponce03@gmail.com>
+Date:   Mon Aug 5 10:39:23 2024 -0600
+
+    Merge branch 'dev' into pavel
+
+[33mcommit 37e23e298316dc842faf80df6b3099cb43b529da[m
+Author: PavelPonce <136554909+PavelPonce@users.noreply.github.com>
+Date:   Mon Aug 5 09:51:37 2024 -0600
+
+    fix(actividadesPorEtapa)
+    
+    Eliminaron campo Identificador en la base de datos
+
+[33mcommit e4c827c7775579227249d12229745e2f534fc3fa[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Mon Aug 5 05:35:14 2024 -0600
+
+    fix(merge)
+
+[33mcommit f367baf6d3b6517af3837bd3a8db76a69f254c32[m
+Merge: 0611ff6 d2a2296
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Mon Aug 5 05:15:55 2024 -0600
+
+    Merge branch 'manuel' into eduardo
+
+[33mcommit 0611ff6da107f64c5922c7cbf2081c2b41113e1a[m
+Merge: 67be5c9 20d2298
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Mon Aug 5 05:12:01 2024 -0600
+
+    Merge remote-tracking branch 'origin/pavel' into eduardo
+
+[33mcommit 67be5c93d0d89b48a9858f7007055b7e2ac2ee36[m
+Merge: 59f8b4b 68acef4
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Mon Aug 5 05:11:27 2024 -0600
+
+    Merge remote-tracking branch 'origin/victor' into eduardo
+
+[33mcommit 68acef43cdf3eabb80779bfb4dae93df38d83b1a[m
+Author: Victor Espinoza <vespinozabenitez@gmail.com>
+Date:   Mon Aug 5 01:32:58 2024 -0600
+
+    COMENTARIO EN SERVICE CONFIGURATION IMPUESTO REP
+
+[33mcommit 59f8b4b9b3272986cfdc3eabfccc709b07c55a06[m
+Merge: d4fcf49 fb4ceca
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Mon Aug 5 00:03:58 2024 -0600
+
+    Merge remote-tracking branch 'origin/eduardo' into madian
+
+[33mcommit d4fcf494bc6707d12802448049825b46a3cdefc5[m
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Sun Aug 4 23:57:20 2024 -0600
+
+    feat(proyecto): se documento el codigo
+
+[33mcommit 20d229893a3dc52767338f92e5dfaccf18210a23[m[33m ([m[1;31morigin/dev[m[33m)[m
+Merge: 2e6725a fb4ceca
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Aug 4 22:42:38 2024 -0600
+
+    Merge pull request #66 from KevinMatta/eduardo
+    
+    Eduardo
+
+[33mcommit fb4ceca56562a739218d99fd01b3c4c67ee335ee[m
+Merge: 482880c 40f819e
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Aug 4 22:22:04 2024 -0600
+
+    Merge remote-tracking branch 'origin/madian' into eduardo
+
+[33mcommit 482880cb906cc324146da4fa28f949b43a5ec504[m
+Merge: c14875f 372f953
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Aug 4 22:12:07 2024 -0600
+
+    Merge branch 'jafeth' into eduardo
+
+[33mcommit 39de19eebf3417486337d491b512deaf17caa3d3[m
+Author: Enderson9 <161340614+Enderson9@users.noreply.github.com>
+Date:   Sun Aug 4 22:07:24 2024 -0600
+
+    feat:(UnidadMedida)
+    
+    Sacar id generado
+
+[33mcommit 40f819eea657ea7dff184bd1e5fe14d7e60b3848[m
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Sun Aug 4 21:55:47 2024 -0600
+
+    fix(planilla): se arreglo if de frecuencia para asignar dia
+
+[33mcommit 372f9536f1a2124bdd61f3599eb5fd9570c783d6[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Sun Aug 4 20:51:57 2024 -0700
+
+    fix(genrales,insumos)cambios en el eliminar de insumo y en moneda
+
+[33mcommit c14875f997751e94838df0808ea22fdfc3dc9a01[m
+Merge: 4e52e2a c0b3d2e
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Aug 4 21:41:52 2024 -0600
+
+    Merge remote-tracking branch 'origin/jason' into eduardo
+
+[33mcommit 8d25562b766fd6b44b7947d67270ca4390b4072c[m
+Merge: 28535c1 983bb41
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Sun Aug 4 19:51:19 2024 -0700
+
+    Merge branch 'eduardo' into jafeth
+
+[33mcommit 4e52e2ab30e72f1c970af48029c33cb8188ecf06[m
+Merge: 983bb41 8aa61ed
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Aug 4 20:44:44 2024 -0600
+
+    fix(merge):Yordin
+
+[33mcommit 8aa61ed22da5e931f73132a684fc9d2c69d26988[m
+Merge: 39cabd3 8cac41b
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Sun Aug 4 20:37:15 2024 -0600
+
+    Merge remote-tracking branch 'origin/eduardo' into yordin
+
+[33mcommit 983bb41d6166a4be1c06a3072aa74643015fd299[m
+Merge: 47d43d0 22785be
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Aug 4 20:22:08 2024 -0600
+
+    Merge remote-tracking branch 'origin/mindy' into eduardo
+
+[33mcommit d2a22967c370ccdc5f8fde783cc8719d2508bf9a[m
+Author: jahirmjlg <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Sun Aug 4 20:03:05 2024 -0600
+
+    fix(etapas) ¿por si el CodeStatus scope le ponen == 1?
+
+[33mcommit 28535c1e0f1d3fe4c2725aa541c332a51ea81c2a[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Sun Aug 4 18:56:57 2024 -0700
+
+    fix(insumo)cambios en el listar de materiales
+
+[33mcommit 47d43d011932744c19c94c459ea57432ec5445be[m
+Merge: 8cac41b f5a0f38
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Aug 4 19:55:26 2024 -0600
+
+    fix(Merge):Jafet
+
+[33mcommit 39cabd36da48d81143c6d1497322c6e3f2d43aae[m
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Sun Aug 4 19:27:24 2024 -0600
+
+    docs(cambios en el eliminar): endpoint de niveles y categorias
+
+[33mcommit ba9a532c9ba828d59639566bd7a1d905af157716[m
+Merge: 3872b4c abbbf1e
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Sun Aug 4 19:03:24 2024 -0600
+
+    Merge remote-tracking branch 'origin/pavel' into yordin
+
+[33mcommit 8cac41b860416b1866eecb0f366e444b65b633a0[m
+Merge: 98c4971 aaed32a
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Aug 4 17:47:53 2024 -0600
+
+    Merge branch 'manuel' into eduardo
+
+[33mcommit 98c4971421ee44c211f9aa372ec5f43fa209c01d[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Aug 4 17:46:58 2024 -0600
+
+    Merge branch 'Manuel' into eduardo
+
+[33mcommit 7ac4c4fe623ede5a6ceb23550d11b9996041033d[m
+Merge: 769e12b af02b8d
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Aug 4 17:32:21 2024 -0600
+
+    Merge branch 'alejandra' into eduardo
+
+[33mcommit 769e12b058207ea3e704aa00514f597fb73c3820[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Aug 4 17:07:11 2024 -0600
+
+    Merge branch 'alejandra' into eduardo
+
+[33mcommit 3b3b3c779cd61cc671b77799879aa3c58588343a[m
+Merge: 1cbb704 c375d76
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Aug 4 14:24:12 2024 -0600
+
+    Merge remote-tracking branch 'origin/fernando' into eduardo
+
+[33mcommit c375d76a42fc2adbf5c2e054416ccd54c41e37fb[m
+Author: FernanJS17 <109115569+FernanJS17@users.noreply.github.com>
+Date:   Sun Aug 4 14:16:01 2024 -0600
+
+    feat(comentarios en metodos para pais, bodega, material)
+
+[33mcommit 1cbb70454974a566167047853ead2ee6313b58cc[m
+Merge: 8cf9542 29cd2a7
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Aug 4 13:38:46 2024 -0600
+
+    Merge remote-tracking branch 'origin/fernando' into eduardo
+
+[33mcommit 8cf95422596009a755d2dd0388d5cd37a686e496[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Aug 4 13:38:28 2024 -0600
+
+    docs(codigo documentado de roles)
+
+[33mcommit 29cd2a7df0e5100896fb4a8c4850fddcd0fbd234[m
+Author: FernanJS17 <109115569+FernanJS17@users.noreply.github.com>
+Date:   Sun Aug 4 13:36:40 2024 -0600
+
+    feat(estándares en api Pais,Material,Bodega)
+
+[33mcommit 3872b4c682f98958a367ea226a4e54ff434cf586[m
+Merge: d6419d1 f5a0f38
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Sun Aug 4 13:29:26 2024 -0600
+
+    Merge remote-tracking branch 'origin/jafeth' into yordin
+
+[33mcommit d6419d18f4cef66bc428f463f1b1838afeae2694[m
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Sun Aug 4 13:27:30 2024 -0600
+
+    docs(conexion): modificacion en el usuario y contraseña
+
+[33mcommit af02b8d8f341057aba846fb87b7b5fc643f8285b[m
+Author: Alesoliss <159864507+Alesoliss@users.noreply.github.com>
+Date:   Sun Aug 4 12:14:01 2024 -0600
+
+    fix(Insumos, Planillas): endpoint arreglados de subcategorias y frecuencias
+
+[33mcommit 22785be34c4566f63e78b78fddb3203b1bd29a85[m
+Author: MFaviola <165686215+MFaviola@users.noreply.github.com>
+Date:   Sun Aug 4 11:49:49 2024 -0600
+
+    fix(Bienes Raices)cambiando metodo de eliminar y comentando el codigo de bienes raices, empresa bienes raices y costos por actividad y cambios en documentacion
+
+[33mcommit c0b3d2e8a93b9a8863675c096d9c2f5a513b18f9[m
+Author: Jason Jeremy Villanueva Sanchez <97322168+PUSHKIN504@users.noreply.github.com>
+Date:   Sun Aug 4 09:18:50 2024 -0600
+
+    FIX(enpointsJason)
+
+[33mcommit f5a0f3866de0285a51ec1b497196c4dd750324f6[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Sat Aug 3 21:10:33 2024 -0700
+
+    imagenes subidas para practicar
+
+[33mcommit a2082db3e56b3f28b08c87519942e089df2e0ec3[m
+Merge: 193f0a4 923a4ba
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Sat Aug 3 21:00:14 2024 -0700
+
+    Merge branch 'yordin' into jafeth
+
+[33mcommit 0fbaf275c89cd393d11036151713329f1f2e5cd0[m
+Merge: 383ef6e b0db8ee
+Author: seucedaa <134754822+seucedaa@users.noreply.github.com>
+Date:   Sat Aug 3 18:45:22 2024 -0600
+
+    Merge remote-tracking branch 'origin/eduardo' into sua
+
+[33mcommit aaed32a76c2d4635c9e02307208240326f7aff28[m
+Author: jahirmjlg <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Sat Aug 3 17:21:04 2024 -0600
+
+    fix(insumos, proyectos, general) cambios en el eliminar y comentarios de codigo
+
+[33mcommit 32ee3c616d36df5d564eebe926e5ea46b83b3d90[m
+Author: Victor Espinoza <vespinozabenitez@gmail.com>
+Date:   Sat Aug 3 13:42:20 2024 -0600
+
+    fix(proyectoservice) ListarActividadesPorEtapasFill
+
+[33mcommit 6852fab0d0e664e40422fb99b34af389fa678eaa[m
+Author: Victor Espinoza <vespinozabenitez@gmail.com>
+Date:   Sat Aug 3 13:38:07 2024 -0600
+
+    fix(scripsdatabase) actividadporetapa
+
+[33mcommit b8288c3964f39f096d83b8d157ca5f66ed96e050[m
+Author: Victor Espinoza <vespinozabenitez@gmail.com>
+Date:   Sat Aug 3 13:28:45 2024 -0600
+
+    fix(merge) actividadporetapa scripts database
+
+[33mcommit b939895148d6b81ae32682f8fa5904bbec60236c[m
+Author: Victor Espinoza <vespinozabenitez@gmail.com>
+Date:   Sat Aug 3 13:25:49 2024 -0600
+
+    fix(merge) actividadporetapa repository
+
+[33mcommit aa0518c567d69aed8f2e55b83a787cb1e122f526[m
+Author: jahirmjlg <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Sat Aug 3 02:12:10 2024 -0600
+
+    fix(insumos) quitando codigo repetido que se genero en el merge
+
+[33mcommit 193f0a4cf4bfd3abdeca964ed5c8a9795fbd969c[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Fri Aug 2 23:52:51 2024 -0700
+
+    cambio par que me traiga la data el material
+
+[33mcommit 35d498b8d86852565accac696dd749a6fd5c52fb[m
+Merge: ac50026 b0db8ee
+Author: jahirmjlg <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Sat Aug 3 00:41:33 2024 -0600
+
+    Merge branch 'eduardo' into manuel
+
+[33mcommit 0d5a8ff64b90f8f542d76cd08935c4ef372ef8dd[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sat Aug 3 00:37:56 2024 -0600
+
+    docs(codigo comentado)
+
+[33mcommit b0db8eead64af19b40c9160b91c33c4ad61b6fd3[m
+Merge: 386ea32 abbbf1e
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Fri Aug 2 23:37:28 2024 -0600
+
+    feat(merge):Eliminado
+
+[33mcommit abbbf1ecfbe727a4b45769e814a35ea6d6ee562e[m
+Author: PavelPonce <136554909+PavelPonce@users.noreply.github.com>
+Date:   Fri Aug 2 22:32:44 2024 -0600
+
+    refactor(estandar)
+    
+    logica estandar para eliminar
+
+[33mcommit 386ea327c2980f8cbf368f29d5dab0cf7fea1c87[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Fri Aug 2 21:46:37 2024 -0600
+
+    Revert "Merge remote-tracking branch 'origin/pavel' into eduardo"
+    
+    This reverts commit dffd9c6c3f9e515f23e66e5e229545b9431b6cdb, reversing
+    changes made to 2e6725a7d441e5bd8d76a4331d84de94ba313522.
+
+[33mcommit dffd9c6c3f9e515f23e66e5e229545b9431b6cdb[m
+Merge: 2e6725a 0cb6deb
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Fri Aug 2 21:40:41 2024 -0600
+
+    Merge remote-tracking branch 'origin/pavel' into eduardo
+
+[33mcommit 3694fb42953031ae7b9ae8b93f69b53ae08d6785[m
+Author: Jason <jasonjeremy504@gmail.com>
+Date:   Fri Aug 2 16:31:36 2024 -0600
+
+    Fix(UM)
+
+[33mcommit dfdcbdf6b6ea2ee96edcb58a31e12601e7af5dc7[m
+Merge: 3fd1ee6 8b034ea
+Author: kevin matta <134754822+seucedaa@users.noreply.github.com>
+Date:   Fri Aug 2 16:26:21 2024 -0600
+
+    fix(tbPrestamos) not mappeds
+
+[33mcommit 3fd1ee6df2b6caed1185ac7180291d80f0d89670[m
+Author: kevin matta <134754822+seucedaa@users.noreply.github.com>
+Date:   Fri Aug 2 16:20:35 2024 -0600
+
+    fix(tbPrestamos) not mappeds
+
+[33mcommit 4305a0490f3520d2b592b8cfc408da9035106da8[m
+Author: Mine25-afk <161340614+Enderson9@users.noreply.github.com>
+Date:   Fri Aug 2 16:20:01 2024 -0600
+
+    feat:(NuevoEndpoint)
+    
+    Etapa
+
+[33mcommit ac50026d551aac6308bfcd1e78187e1263d25389[m
+Author: Manuel <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Fri Aug 2 16:19:39 2024 -0600
+
+    style(general) comentado de algunas acciones
+
+[33mcommit 0cb6deb125e81bed7d247b46ce073b27711a6927[m
+Author: Pace <pavelponce03@gmail.com>
+Date:   Fri Aug 2 13:52:17 2024 -0600
+
+    fix(cliente)
+    
+    Not Mapped clie_NombreCompleto
+
+[33mcommit 027b98d8fb941e6e72bd416a686f721eac68f6ab[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Fri Aug 2 12:01:23 2024 -0600
+
+    cambios para el documento
+
+[33mcommit 98bbab5af687098206841eb87ccda86fa4dc87d1[m
+Author: Hector <enriquebarahonayt14@gmail.com>
+Date:   Fri Aug 2 11:57:57 2024 -0600
+
+    fix
+    
+    cambios
+
+[33mcommit 72ca29ee5a0bd02799f49089abfdbac030aa3f47[m
+Merge: 0c67c1e 2e6725a
+Author: Manuel <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Fri Aug 2 11:45:23 2024 -0600
+
+    Merge branch 'eduardo' into manuel
+
+[33mcommit bcf189a8be96c4a892aba493b00f9953cc487c4d[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Fri Aug 2 07:41:55 2024 -0600
+
+    cambios
+
+[33mcommit b5970ee46da226f2f88258caafc41765393db66e[m
+Author: Enderson9 <161340614+Enderson9@users.noreply.github.com>
+Date:   Fri Aug 2 05:27:19 2024 -0600
+
+    feat:(Presupuesto)
+    
+    Avances
+
+[33mcommit 0c67c1e38f6ba7779da9e849fde7286b44fb76a7[m
+Author: jahirmjlg <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Thu Aug 1 23:34:15 2024 -0600
+
+    fix(insumos) maquinaria en especifico insertar y eliminar
+
+[33mcommit 2e6725a7d441e5bd8d76a4331d84de94ba313522[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Aug 1 22:29:23 2024 -0600
+
+    feat(Proveedores):Agregue el InsumoOMaquinaraia de un proveedor
+
+[33mcommit b17738f52f1afb9d5f73a32a56034081f090feb6[m
+Merge: 8c9e7b2 3f3e4a8
+Author: PavelPonce <136554909+PavelPonce@users.noreply.github.com>
+Date:   Thu Aug 1 22:11:09 2024 -0600
+
+    Merge branch 'dev' into pavel
+
+[33mcommit 8c9e7b2779fbf8ac1e7712bfab862129aa395ade[m
+Author: PavelPonce <136554909+PavelPonce@users.noreply.github.com>
+Date:   Thu Aug 1 22:10:05 2024 -0600
+
+    chore(ConexionSIGESPROC)
+    
+    Cambio de credenciales de bd. => API-SUPER
+
+[33mcommit 22ff8e7cc12e130bb7ee1bdb5a4c043f1b971096[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Aug 1 19:59:45 2024 -0600
+
+    fix(merge)
+
+[33mcommit 383ef6eb8a8c8061822cbdbbe8fdcc5f9bdcf9b9[m
+Merge: f003b7b feca7d5
+Author: seucedaa <134754822+seucedaa@users.noreply.github.com>
+Date:   Thu Aug 1 18:20:48 2024 -0600
+
+    Merge remote-tracking branch 'origin/eduardo' into sua
+
+[33mcommit 7a7a0ec5977fd26282266fd55371069ca7fa20c3[m
+Author: Manuel <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Thu Aug 1 16:05:02 2024 -0600
+
+    fix(insumos) cambios en falctura detalle envio maquinaria
+
+[33mcommit 8b034eafe679062fc684a5d85c37372038c43cec[m
+Merge: 0328e59 126b9ca
+Author: kevin matta <134754822+seucedaa@users.noreply.github.com>
+Date:   Thu Aug 1 15:29:04 2024 -0600
+
+    Merge branch 'dev' of https://github.com/KevinMatta/backend_sigesproc into victor
+
+[33mcommit 126b9cabf6cd08d94049885f5b254dc3785ebe9d[m
+Author: kevin <kmembreno@unah.hn>
+Date:   Thu Aug 1 15:07:32 2024 -0600
+
+    revertido a commit feca7d5 por la cagada de edu
+
+[33mcommit b4cd5d3a828a978fbd3aebe0f4f4130fd274be4c[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Thu Aug 1 15:03:39 2024 -0600
+
+    cambios
+
+[33mcommit 88cec9d47f63add909812f0e471031bd6a805b15[m
+Author: jahirmjlg <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Aug 1 14:37:56 2024 -0600
+
+    fix(Merge)
+
+[33mcommit 61a68beab60c97475509cd61d4a30859ec2b3f32[m
+Merge: c30a162 3f3e4a8
+Author: Manuel <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Thu Aug 1 14:28:47 2024 -0600
+
+    Merge branch 'dev' into manuel
+
+[33mcommit 9a0f2f4a517682acd6878974ff033dcac6e3acbd[m
+Merge: 95a96d8 feca7d5
+Author: Mine25-afk <161340614+Enderson9@users.noreply.github.com>
+Date:   Thu Aug 1 14:27:45 2024 -0600
+
+    Merge branch 'eduardo' into enderson
+
+[33mcommit 95a96d8f67cd81ce0481abff916a353eb9ff549a[m
+Author: Mine25-afk <161340614+Enderson9@users.noreply.github.com>
+Date:   Thu Aug 1 14:26:28 2024 -0600
+
+    feat:(Conexion)
+    
+    Conexion base de datos
+
+[33mcommit 0328e59505825cf9bf878321b20adf7a95367801[m
+Merge: 3f3e4a8 feca7d5
+Author: jahirmjlg <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Aug 1 14:20:11 2024 -0600
+
+    Merge branch 'eduardo' into dev
+
+[33mcommit c30a1629d347877b177523e99d1f3939fba00936[m
+Merge: feca7d5 459031d
+Author: Manuel <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Thu Aug 1 14:19:58 2024 -0600
+
+    Merge branch 'Hector' into manuel
+
+[33mcommit feca7d545697d120d9e9165fa578cd9aa396a4a6[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Thu Aug 1 09:19:17 2024 -0600
+
+    fix (Estado civil): descomentado de endpoint de dropdown
+
+[33mcommit 923a4badead24e0bf93c45a851309b15c1230809[m
+Merge: 1983385 62521ad
+Author: VJEB <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Thu Aug 1 08:15:24 2024 -0600
+
+    Merge remote-tracking branch 'origin/eduardo' into yordin
+
+[33mcommit 62521ad1ee6ad7b52cb40f8f1d72c24606755c6d[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Aug 1 05:38:08 2024 -0600
+
+    sa
+
+[33mcommit aecf3e1d76be9f7861b37e4f306fac1d025f6598[m
+Merge: 01db295 adbf779
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Aug 1 04:11:23 2024 -0600
+
+    Merge branch 'alejandra' into eduardo
+
+[33mcommit 01db29533b38fb38cc3aea3a9879a31419ae7b1e[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Aug 1 04:10:24 2024 -0600
+
+    fix()
+
+[33mcommit adbf7792fff0316d9789839f373c32eca10f85d0[m
+Author: Alesoliss <159864507+Alesoliss@users.noreply.github.com>
+Date:   Thu Aug 1 03:26:39 2024 -0600
+
+    fix(Fletes):Endpoint de listado detalles
+
+[33mcommit 459031dc55c8113be560e9a04f17455cdcd494f6[m
+Author: Hector11S <161340531+Hector11S@users.noreply.github.com>
+Date:   Thu Aug 1 03:02:07 2024 -0600
+
+    fix
+    
+    cambios
+
+[33mcommit 98f4ecd8dc6d3afe37c8398aa7b3006a1910298f[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Aug 1 02:23:34 2024 -0600
+
+    feat(IziToast)
+
+[33mcommit 3f3e4a8a1a27ec5b707dd69b4d700cad943f8c31[m
+Merge: f003b7b 851eb2a
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Aug 1 01:49:05 2024 -0600
+
+    Merge pull request #65 from KevinMatta/revert-64-eduardo
+    
+    Revert "Eduardo"
+
+[33mcommit 851eb2acc66d32915159d0872cac36321f78f4fb[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Aug 1 01:48:54 2024 -0600
+
+    Revert "Eduardo"
+
+[33mcommit 916acbe45b187c78bf0da3327084c72ea720b50a[m
+Author: PavelPonce <136554909+PavelPonce@users.noreply.github.com>
+Date:   Thu Aug 1 01:46:58 2024 -0600
+
+    feat(nuevaEtapa)
+
+[33mcommit 91b27cc958a0d16fa6cec738e90a13b6df573067[m
+Merge: a670cd3 16d54ad
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Aug 1 00:21:12 2024 -0600
+
+    Merge remote-tracking branch 'origin/fernando' into eduardo
+
+[33mcommit 198338580e88eb5d566142269edc9f542252c5ce[m
+Merge: 3fb8890 f003b7b
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Wed Jul 31 22:06:21 2024 -0600
+
+    Merge remote-tracking branch 'origin/sua' into yordin
+
+[33mcommit 3fb889059aa56b75a5a4f1a13d8dc8e1bc6a8cc5[m
+Merge: 21148b4 a670cd3
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Wed Jul 31 21:49:19 2024 -0600
+
+    Merge remote-tracking branch 'origin/eduardo' into yordin
+
+[33mcommit 21148b4c62082c1af9dd25307149cf47ccfd3cb9[m
+Merge: 1d936b0 244d170
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Wed Jul 31 21:47:51 2024 -0600
+
+    Merge remote-tracking branch 'origin/jafeth' into yordin
+
+[33mcommit 16d54ad527bc4b9ca1689a180de91e13d92455a3[m
+Merge: 2670b04 6c4533e
+Author: FernanJS17 <109115569+FernanJS17@users.noreply.github.com>
+Date:   Wed Jul 31 19:23:20 2024 -0600
+
+    Merge branch 'alejandra' into fernando
+
+[33mcommit f003b7bb55588c7bf6883cc1f3702ea859cbde7d[m
+Merge: 4141ed0 a670cd3
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Wed Jul 31 18:53:12 2024 -0600
+
+    Merge pull request #64 from KevinMatta/eduardo
+    
+    Eduardo
+
+[33mcommit a670cd380c43c2847e3c7ff49d49012174cb2b59[m
+Merge: decc0c9 1e293a8
+Author: Hector <enriquebarahonayt14@gmail.com>
+Date:   Wed Jul 31 15:52:33 2024 -0600
+
+    Merge branch 'Hector' into eduardo
+
+[33mcommit 1e293a88b7e4c691ffd0efbe724d7f3b3adf15d9[m
+Author: Hector <enriquebarahonayt14@gmail.com>
+Date:   Wed Jul 31 15:17:16 2024 -0600
+
+    fix cambios
+
+[33mcommit decc0c9a8ab4a135cdda58d479cfc44e0455ec72[m
+Merge: 98b7e64 2b8ac4e
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Wed Jul 31 14:04:08 2024 -0600
+
+    Merge remote-tracking branch 'origin/pavel' into eduardo
+
+[33mcommit 2b8ac4e1c589bc37ac7289a6dd0dd443c3bb404b[m
+Author: PavelPonce <136554909+PavelPonce@users.noreply.github.com>
+Date:   Wed Jul 31 12:25:41 2024 -0600
+
+    feat(proyecto)
+
+[33mcommit 98b7e6412dbff53bfeaabb4fc106d586581d952b[m
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Wed Jul 31 11:50:06 2024 -0600
+
+    fix()
+
+[33mcommit 55ef622df97e8fd60af460823f72e538cffea3c9[m
+Merge: 8d3b549 a444202
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Wed Jul 31 11:10:24 2024 -0600
+
+    Merge branch 'madian' into eduardo
+
+[33mcommit a4442020d22368020815953273b84c399a2275ba[m
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Wed Jul 31 11:09:35 2024 -0600
+
+    feat(planilla): continuacion de planilla
+
+[33mcommit 8d3b5492832749af0441b3f0a7f0dc8d18cfb862[m
+Merge: b149cde 6c4533e
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Wed Jul 31 10:01:01 2024 -0600
+
+    Merge branch 'alejandra' into eduardo
+
+[33mcommit b149cde7b7098841ee2e1fa6511bf700496cdc39[m
+Merge: 046a2a5 5d1fc1a
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Wed Jul 31 10:00:27 2024 -0600
+
+    Merge remote-tracking branch 'origin/enderson' into eduardo
+
+[33mcommit 046a2a5ece0a36df316672324400f7e71b7f32f1[m
+Merge: cdc7052 ac88eae
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Wed Jul 31 10:00:13 2024 -0600
+
+    Merge remote-tracking branch 'origin/manuel' into eduardo
+
+[33mcommit cdc7052befb85830581faac5f34e39ec5860fbda[m
+Merge: 1fe0674 0d372f0
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Wed Jul 31 09:58:18 2024 -0600
+
+    Merge remote-tracking branch 'origin/pavel' into eduardo
+
+[33mcommit 1fe0674698cb853fb67532e1be0f2af7a57cb291[m
+Merge: a939875 d8774da
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Wed Jul 31 09:55:28 2024 -0600
+
+    Merge remote-tracking branch 'origin/victor' into eduardo
+
+[33mcommit a939875d5d2b03d29a6ad82e77733903a0fa24f8[m
+Merge: a8baf16 1d936b0
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Wed Jul 31 09:55:15 2024 -0600
+
+    Merge remote-tracking branch 'origin/yordin' into eduardo
+
+[33mcommit d8774da5ab357340ecd9701f96a3109f2dd183cb[m
+Author: kevin matta <134754822+seucedaa@users.noreply.github.com>
+Date:   Wed Jul 31 09:50:51 2024 -0600
+
+    fix(prestamos) not mapped
+
+[33mcommit 5d1fc1aa5e80c245131fbe23fdcb975bcd53a3e3[m
+Merge: 9fc443d 0d372f0
+Author: Mine25-afk <161340614+Enderson9@users.noreply.github.com>
+Date:   Wed Jul 31 09:48:31 2024 -0600
+
+    Merge remote-tracking branch 'origin/pavel' into enderson
+
+[33mcommit 0d372f0bdff6f559a140c00356f02bd5d117f166[m
+Author: PavelPonce <136554909+PavelPonce@users.noreply.github.com>
+Date:   Wed Jul 31 09:46:03 2024 -0600
+
+    feat(avanceProyecto)
+    
+    Avance de Proyecto
+
+[33mcommit 6c4533e97081bd45096c99d875adfcdfa7dbed76[m
+Author: Alesoliss <159864507+Alesoliss@users.noreply.github.com>
+Date:   Wed Jul 31 09:42:51 2024 -0600
+
+    fix(Fletes):Entitie Flete Encabezado
+
+[33mcommit 1d936b0e448a93b2416b6fbc818cc1f4c97f60b9[m
+Author: VJEB <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Wed Jul 31 08:51:11 2024 -0600
+
+    imagenes
+    
+    :)
+
+[33mcommit ac88eae6e795e0e83913715a4b596a173dd0a939[m
+Author: Manuel <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Wed Jul 31 08:49:50 2024 -0600
+
+    Fix(insumos) proveedores Mensajes
+
+[33mcommit a8baf16b3ab4c1e424e73877ca3e51b8fe4b6085[m
+Merge: c7fa027 e803d45
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Wed Jul 31 07:52:55 2024 -0600
+
+    Merge remote-tracking branch 'origin/victor' into eduardo
+
+[33mcommit c7fa027399f41746027cafde9c9898352d8d497b[m
+Merge: 5ae9536 1f731da
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Wed Jul 31 07:51:57 2024 -0600
+
+    Merge remote-tracking branch 'origin/manuel' into eduardo
+
+[33mcommit 5ae9536ff8f69c8f9c9730e05bf0ef609448f430[m
+Merge: 8692f5d d124b86
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Wed Jul 31 07:51:49 2024 -0600
+
+    Merge remote-tracking branch 'origin/jason' into eduardo
+
+[33mcommit 8692f5d78c96016dc8c7c39a1354d5d6c6eb1336[m
+Merge: 4239013 ba17d75
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Wed Jul 31 07:51:15 2024 -0600
+
+    Merge branch 'madian' into eduardo
+
+[33mcommit 423901308b777375269affbd6832035a3d14bbc8[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Wed Jul 31 05:44:24 2024 -0600
+
+    fix(entities)
+
+[33mcommit bcf7ebde9a00b350f33fc2ac521f8ef1ad6e33f1[m
+Merge: 9afacc2 d0a2dca
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Wed Jul 31 05:43:44 2024 -0600
+
+    Merge remote-tracking branch 'origin/sua' into eduardo
+
+[33mcommit 9afacc25f2cc00c654edec0c3debc78af27f9795[m
+Merge: 80962a5 a133736
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Wed Jul 31 05:43:26 2024 -0600
+
+    Merge remote-tracking branch 'origin/yordin' into eduardo
+
+[33mcommit 80962a594a2bf24286a0a265042b5a1d9d434f25[m
+Merge: d014f8f 244d170
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Wed Jul 31 05:42:59 2024 -0600
+
+    Merge remote-tracking branch 'origin/jafeth' into eduardo
+
+[33mcommit d014f8fe50d18c1db8334b899be1d37d248b8bfa[m
+Merge: 7c3bb78 9fc443d
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Wed Jul 31 05:42:35 2024 -0600
+
+    Merge remote-tracking branch 'origin/enderson' into eduardo
+
+[33mcommit 7c3bb785a9dbd2e931b60e62832a2c1cceb6a3be[m
+Merge: 82d3d19 5940ae6
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Wed Jul 31 05:42:25 2024 -0600
+
+    Merge remote-tracking branch 'origin/Hector' into eduardo
+
+[33mcommit ba17d752bc1080f7c49763b55a20b462657d0375[m
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Wed Jul 31 01:41:21 2024 -0600
+
+    feat(planilla): continuacion
+
+[33mcommit 5940ae6dc3d3ac40d2700a82f93c9da9ee38b200[m
+Author: Hector11S <161340531+Hector11S@users.noreply.github.com>
+Date:   Wed Jul 31 00:53:28 2024 -0600
+
+    fix
+    
+    cambios
+
+[33mcommit d0a2dca55685c533118bae9499341cb8053b2a86[m
+Author: seucedaa <134754822+seucedaa@users.noreply.github.com>
+Date:   Wed Jul 31 00:30:41 2024 -0600
+
+    fix(buscarventa)
+
+[33mcommit e803d45f3099fa4cae467aad7b41cb272ce924a1[m
+Merge: 5c0a2f4 5c0cb5d
+Author: Victor Espinoza <vespinozabenitez@gmail.com>
+Date:   Tue Jul 30 23:54:10 2024 -0600
+
+    feat(empleados) desactivar y activar
+
+[33mcommit 1f731daa99e363f69c4c3b89c41b70272a99a10b[m
+Author: jahirmjlg <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Tue Jul 30 23:23:19 2024 -0600
+
+    fix(Actividades) not mapped y respuesta de insert de actividades
+
+[33mcommit 82d3d19e8124695066407328bef69ba911f1c977[m
+Merge: 5b0e4b6 2670b04
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Tue Jul 30 21:56:28 2024 -0600
+
+    Merge branch 'manuel' into eduardo
+
+[33mcommit 9eb4ea1330ef3a5efdc8dd0fcfe90de8a087491e[m
+Merge: cc92d5f a133736
+Author: seucedaa <134754822+seucedaa@users.noreply.github.com>
+Date:   Tue Jul 30 21:30:12 2024 -0600
+
+    Merge remote-tracking branch 'origin/yordin' into sua
+
+[33mcommit cc92d5f3fd49736e44e7b667336418a9d3f04771[m
+Author: seucedaa <134754822+seucedaa@users.noreply.github.com>
+Date:   Tue Jul 30 21:29:36 2024 -0600
+
+    fix(fletesencabezado,procesoventa)
+
+[33mcommit a133736e29bb6092852708e718adb8d48b000f0b[m
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Tue Jul 30 20:34:04 2024 -0600
+
+    imagenes
+    
+    :)
+
+[33mcommit f50626fdf5c23b559c357cee5887d06205681a13[m
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Tue Jul 30 20:07:11 2024 -0600
+
+    docs(bienes y raices): modificue controlador y repositorio de proceso de venta de bienes y raices
+    
+    :)
+
+[33mcommit 2670b04796c00aa28e914f544947c0fa7e5c2a67[m
+Merge: 3c9354a 139b5c2
+Author: jahirmjlg <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Tue Jul 30 19:16:01 2024 -0600
+
+    Merge branch 'pavel' into manuel
+
+[33mcommit d124b86c9163da9ce379410965c4a78d65c7248e[m
+Author: Jason <jasonjeremy504@gmail.com>
+Date:   Tue Jul 30 16:19:41 2024 -0600
+
+    Fix(Viaticos)
+
+[33mcommit 917842236069765486209312b9b83c91fde946fd[m
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Tue Jul 30 16:17:56 2024 -0600
+
+    feat(planilla): conntinuacion
+
+[33mcommit 139b5c202f00f50d965f8f3b9e87d943df3f88e1[m
+Author: PavelPonce <136554909+PavelPonce@users.noreply.github.com>
+Date:   Tue Jul 30 15:09:52 2024 -0600
+
+    fix(tablas)
+    
+    Campos de fecha en string, campos numericos en string
+
+[33mcommit 7cbc1e2e0454e40d1232ba9ba1afa94ef9bdba92[m
+Merge: 3c282d8 4141ed0
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Tue Jul 30 13:20:15 2024 -0600
+
+    Merge remote-tracking branch 'origin/dev' into madian
+
+[33mcommit 5b0e4b617b73b12cc9d5fc3456c13dab9be89750[m
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Tue Jul 30 12:32:50 2024 -0600
+
+    a
+
+[33mcommit 49910690a4305c842e2873cb9594113001e18c63[m
+Author: Hector <enriquebarahonayt14@gmail.com>
+Date:   Tue Jul 30 12:25:37 2024 -0600
+
+    fix
+    
+    cambios
+
+[33mcommit 01119bb4f5a38b2d93f6cbd8fd67eaa0f1618804[m
+Merge: 0abf224 f7cbf04
+Author: VJEB <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Tue Jul 30 11:41:28 2024 -0600
+
+    Merge remote-tracking branch 'origin/jafeth' into yordin
+
+[33mcommit 244d170914255dea97ad46198d9a67b142bc1141[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Tue Jul 30 11:38:46 2024 -0600
+
+    fix(bienesraices)arreglando repositorio de imagenesprocesoventa
+
+[33mcommit 3c282d8d5a10ef4cfad9f976b78814c1fdbffc3f[m
+Author: Mine25-afk <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Tue Jul 30 11:35:46 2024 -0600
+
+    fix(Planilla):
+
+[33mcommit 0abf2249eeb7c68c3de57b0e359f2a722a5a1ed8[m
+Author: VJEB <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Tue Jul 30 10:12:07 2024 -0600
+
+    docs(Bienes y raices): modificacion en los viewmodel y tabla
+    
+    :)
+
+[33mcommit b173364851dd5af51b7095a4c7bf32031bbdaae3[m
+Merge: 855b9f0 bb5ea3d
+Author: Jason Jeremy Villanueva Sanchez <134754822+seucedaa@users.noreply.github.com>
+Date:   Tue Jul 30 09:59:26 2024 -0600
+
+    Merge branch 'yordin' into sua
+
+[33mcommit bb5ea3d8d8b7a4ec216c01ecc9bc192fc271308a[m
+Author: VJEB <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Tue Jul 30 09:57:37 2024 -0600
+
+    docs(bienes y raices): endpoind de buscar proceso de venta
+
+[33mcommit 855b9f0dbd15f19e3cfdd4dc2d3b27c8eaf5c063[m
+Merge: edc2535 f7cbf04
+Author: Jason Jeremy Villanueva Sanchez <134754822+seucedaa@users.noreply.github.com>
+Date:   Tue Jul 30 09:10:50 2024 -0600
+
+    Merge remote-tracking branch 'origin/jafeth' into sua
+
+[33mcommit edc253512a3f62f9826a3583f935d3aeed4f2538[m
+Merge: 0cbd805 bf89d20
+Author: Jason Jeremy Villanueva Sanchez <134754822+seucedaa@users.noreply.github.com>
+Date:   Tue Jul 30 09:10:28 2024 -0600
+
+    Merge remote-tracking branch 'origin/yordin' into sua
+
+[33mcommit f7cbf0405b840f42c8b83ee9c57dd28214203c26[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Tue Jul 30 08:37:04 2024 -0600
+
+    fix(binesraices)agregando no maped al entitie y el view model de imagenes proceso de venta
+
+[33mcommit 52772b4c488d4d585825e4a81a5590a97ea6f142[m
+Merge: 3dbca84 bf89d20
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Tue Jul 30 08:28:56 2024 -0600
+
+    Merge remote-tracking branch 'origin/yordin' into jafeth
+
+[33mcommit 3dbca8423f9ee0221652f703f0d6e0658e7f27f1[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Tue Jul 30 08:14:25 2024 -0600
+
+    fix(bienesraices)agregando campos mapeados al proceso de venta
+
+[33mcommit 175a346f96377664b6b855c7087ec02d60c7fb6c[m
+Merge: 26b1753 4141ed0
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Tue Jul 30 07:20:31 2024 -0600
+
+    Merge remote-tracking branch 'origin/dev' into jafeth
+
+[33mcommit 5c0a2f418b0e100dd984935d63a4584346d4b2de[m
+Author: Victor Espinoza <vespinozabenitez@gmail.com>
+Date:   Tue Jul 30 06:32:23 2024 -0600
+
+    feat(empleados) activar/desactivar
+
+[33mcommit a5e6cc7eae81a282fc2c598a35ec05b516b50217[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Tue Jul 30 05:40:17 2024 -0600
+
+    fix(entities):Cotizaciones y InsumoPorProyecto
+
+[33mcommit 0cbd8053ef4228de5371f2b001fc6ab8991f1ef7[m
+Author: seucedaa <134754822+seucedaa@users.noreply.github.com>
+Date:   Mon Jul 29 23:27:21 2024 -0600
+
+    feat(CotizacionesPorProveedor)
+    
+    Necesario para flutter
+
+[33mcommit 349444c9b136af23e4a6461a61b9fa601d04f5fc[m
+Merge: e25e2f6 4141ed0
+Author: PavelPonce <136554909+PavelPonce@users.noreply.github.com>
+Date:   Mon Jul 29 20:08:04 2024 -0600
+
+    Merge branch 'dev' into pavel
+
+[33mcommit e2c2ceb06410e808c63569f474400095d7c423ec[m
+Author: Hector <enriquebarahonayt14@gmail.com>
+Date:   Mon Jul 29 16:34:00 2024 -0600
+
+    fix
+    
+    cambios
+
+[33mcommit 9fc443dc70732aec22e4a93567f5e864e97b7f04[m
+Author: Mine25-afk <161340614+Enderson9@users.noreply.github.com>
+Date:   Mon Jul 29 16:33:57 2024 -0600
+
+    fix:(ActividadRepositori)
+    
+    ListarAcitivadesPorEtapas
+
+[33mcommit a6e85de910bc5dc973c635a87fc660fb43fe3c9d[m
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Mon Jul 29 16:33:35 2024 -0600
+
+    feat(planilla): continuacion de la pantalla de planilla
+
+[33mcommit bf89d20dddc6f7cc8ec0458f49835ecb791afeca[m
+Author: Hector <yordin32sanchez@gmail.com>
+Date:   Mon Jul 29 16:20:33 2024 -0600
+
+    docs (bien raiz): modificacion en repositorio de venta
+
+[33mcommit 3c9354a989fe3ba90a6503a95acad2bfd15cdf90[m
+Author: Manuel <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Mon Jul 29 16:09:07 2024 -0600
+
+    feat(general) crud de impuestos
+
+[33mcommit 6cbfff38f59a46efb4d168747b7262210e2e3cb1[m
+Author: Hector <yordin32sanchez@gmail.com>
+Date:   Mon Jul 29 16:07:19 2024 -0600
+
+    docs(bienes y raices): Viewmodel, service y controladores relacionado con bin raiz
+
+[33mcommit 26b1753a78910e0fd14effd04c303dc30158e44e[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Mon Jul 29 15:47:46 2024 -0600
+
+    fix(bienesraices)modificando controlador de documento y agregando campos a los entities de bien raiz y terrenos
+
+[33mcommit 5c0cb5da33270813609678cf520fec7c63914758[m
+Author: kevin matta <134754822+seucedaa@users.noreply.github.com>
+Date:   Mon Jul 29 14:25:08 2024 -0600
+
+    fix(empleados) servicio
+
+[33mcommit 7a72b5696a293e8b9870ad2668c3e4f8742540fe[m
+Merge: e26036f 4141ed0
+Author: Mine25-afk <161340614+Enderson9@users.noreply.github.com>
+Date:   Mon Jul 29 12:18:02 2024 -0600
+
+    Merge branch 'dev' into enderson
+
+[33mcommit e26036f4526a7d9fee9a3941815630c9e936c149[m
+Author: Mine25-afk <161340614+Enderson9@users.noreply.github.com>
+Date:   Mon Jul 29 12:15:55 2024 -0600
+
+    feat:(Presupuesto)
+    
+    Variables
+
+[33mcommit f5e2195c654fd2db6c8646b003bf836043244cf8[m
+Author: Mine25-afk <161340614+Enderson9@users.noreply.github.com>
+Date:   Mon Jul 29 11:24:38 2024 -0600
+
+    feat:(tbPresupuestosEncabezado)
+    
+    Campos de Impuesto
+
+[33mcommit c098245a94a955b6f1d539b50aa5cfbda4d8c7a3[m
+Merge: ecd301b 4141ed0
+Author: Manuel <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Mon Jul 29 11:08:36 2024 -0600
+
+    Merge branch 'dev' into manuel
+
+[33mcommit ecd301b9c00103aa25d5ac64bf5c8c00a8e9b9e1[m
+Author: Manuel <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Mon Jul 29 11:08:09 2024 -0600
+
+    fix(proyectos) procedimiento para no usar el de enderson
+
+[33mcommit e25e2f63ec04bef5b64fc429692cd05bb63a683b[m
+Merge: 58af019 f2d7225
+Author: Pace <pavelponce03@gmail.com>
+Date:   Mon Jul 29 11:02:19 2024 -0600
+
+    Merge branch 'dev' into pavel
+
+[33mcommit 4141ed0d5177b2b8230df295d0bfef3bbb239554[m
+Author: kevin matta <134754822+seucedaa@users.noreply.github.com>
+Date:   Mon Jul 29 10:53:20 2024 -0600
+
+    fix(entities-actividadesPorEtapa) quitar acti_descripcion repetido
+
+[33mcommit 8e09a53e61b9fc6f9c2b2ccdf042db8dafb2e85a[m
+Merge: 979f568 f2d7225
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Mon Jul 29 10:44:29 2024 -0600
+
+    Merge remote-tracking branch 'origin/dev' into jafeth
+
+[33mcommit f2d7225d2a12352ec994b8b251ac7c16bcd5bda9[m
+Merge: d397238 61c0225
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Mon Jul 29 10:39:44 2024 -0600
+
+    Merge pull request #63 from KevinMatta/prueba
+    
+    fix(Ingenieria inversa):Mapeados de campos
+
+[33mcommit 61c02255af1f0d1512f84d933961604b3295271a[m[33m ([m[1;31morigin/prueba[m[33m)[m
+Author: jahirmjlg <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Mon Jul 29 10:39:29 2024 -0600
+
+    fix(Ingenieria inversa):Mapeados de campos
+
+[33mcommit d3972380a3c910dd017e51b5306fb6e9d641a5f4[m
+Merge: 2645162 f669fb8
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Mon Jul 29 10:38:37 2024 -0600
+
+    Merge pull request #62 from KevinMatta/prueba
+    
+    Prueba
+
+[33mcommit 979f56828b62c93ad5887520746b3f08dd85bbdb[m
+Merge: cf27831 f669fb8
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Mon Jul 29 07:56:44 2024 -0600
+
+    Merge remote-tracking branch 'origin/eduardo' into jafeth
+
+[33mcommit 58af019c73d24a093665d25b0f6adad1cbab4dad[m
+Author: PavelPonce <136554909+PavelPonce@users.noreply.github.com>
+Date:   Mon Jul 29 06:50:32 2024 -0600
+
+    fix(fieldNames)
+
+[33mcommit cf2783120873d4495ebb4fd6c7d3feac5994389e[m
+Merge: c3521c2 0d69fb9
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Mon Jul 29 06:45:28 2024 -0600
+
+    Merge remote-tracking branch 'origin/yordin' into jafeth
+
+[33mcommit f669fb88e441ecb4b760acf3aa5367c7a76c761c[m
+Merge: 757e230 9bd718d
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Jul 28 23:36:18 2024 -0600
+
+    Merge branch 'manuel' into eduardo
+
+[33mcommit 757e23009f8266e376e757aebc901594218534bc[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Jul 28 23:35:38 2024 -0600
+
+    Fix(Merge)
+
+[33mcommit 146dc39c2ad23acd4ea7253a6c140743d6a6f425[m
+Author: Enderson9 <161340614+Enderson9@users.noreply.github.com>
+Date:   Sun Jul 28 23:24:53 2024 -0600
+
+    feat:(tbPresupuestoPorTasaCambio)
+    
+    NotMappeds
+
+[33mcommit 2567c7d099c87adde22396044d89d9f28a8575f8[m
+Merge: a905ece c3521c2
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Jul 28 23:15:28 2024 -0600
+
+    Merge remote-tracking branch 'origin/jafeth' into eduardo
+
+[33mcommit a905ece7bba08047cfe08a49f01f4ef91272647c[m
+Merge: 1a50c12 4f7dc3d
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Jul 28 23:14:58 2024 -0600
+
+    Merge remote-tracking branch 'origin/alejandra' into eduardo
+
+[33mcommit 1a50c12fc7390816b4108afa7637bc87fa1970a0[m
+Merge: d15b311 334f445
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Jul 28 23:14:36 2024 -0600
+
+    Merge branch 'manuel' into eduardo
+
+[33mcommit 9bd718d320935659723c13415db9b76d33992272[m
+Author: jahirmjlg <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Sun Jul 28 22:49:43 2024 -0600
+
+    fix(insmos) quitando una parte muerta
+
+[33mcommit c3521c2ef8440cbb4314834b831b5090ed08e005[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Sun Jul 28 21:46:44 2024 -0700
+
+    cambios en el viewmodel
+
+[33mcommit 6dfb2ceeb36466e3bc396876312657c061ce845e[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Sun Jul 28 21:34:18 2024 -0700
+
+    iamgenes de pruebaaa
+
+[33mcommit 4f7dc3d3828e219d8124a5cf1f0affa957dfb9c8[m
+Author: Alesoliss <159864507+Alesoliss@users.noreply.github.com>
+Date:   Sun Jul 28 22:29:04 2024 -0600
+
+    feat(Insumos por fletes): se añadio endpoint de busqueda en insumos por proveedor segun bodega
+
+[33mcommit d15b31113d96f7416301445804aeedb4d05a625f[m
+Merge: 432c3df e0fcee6
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Jul 28 21:56:52 2024 -0600
+
+    Merge remote-tracking branch 'origin/jason' into eduardo
+
+[33mcommit 432c3df95c9255976aee9dac78b59adfec815a98[m
+Merge: f7fe569 d96af94
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Jul 28 21:54:57 2024 -0600
+
+    Merge remote-tracking branch 'origin/enderson' into eduardo
+
+[33mcommit d96af9494eae2e203544e6b59ad325b01a8a3d17[m
+Author: Enderson9 <161340614+Enderson9@users.noreply.github.com>
+Date:   Sun Jul 28 21:54:56 2024 -0600
+
+    fix:(Presupuesto)
+    
+    Problemas
+
+[33mcommit f7fe569d1138b568c24cb6580943c652121aeb34[m
+Merge: e23d37f 4eb006a
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Jul 28 21:50:15 2024 -0600
+
+    Merge remote-tracking branch 'origin/enderson' into eduardo
+
+[33mcommit 334f445fa8914979b74d4fc24deb31acb3274cd6[m
+Author: jahirmjlg <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Sun Jul 28 21:49:23 2024 -0600
+
+    feat(insumos) destinos por actividades por etapa insertar total y unitario
+
+[33mcommit e23d37f1505cbda7817f09a4f7e173f81927b8ea[m
+Merge: 39fa715 f80b813
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Jul 28 21:45:57 2024 -0600
+
+    Merge remote-tracking branch 'origin/jason' into eduardo
+
+[33mcommit e0fcee6ea4c2b3ecdc0ef66f9acc8805ef25bc8d[m
+Author: Jason Jeremy Villanueva Sanchez <97322168+PUSHKIN504@users.noreply.github.com>
+Date:   Sun Jul 28 21:37:45 2024 -0600
+
+    Feat(Viaticos): enpoints y modificaciones
+
+[33mcommit 4eb006a8167d24178534a20912391e2a9d419bdd[m
+Author: Enderson9 <161340614+Enderson9@users.noreply.github.com>
+Date:   Sun Jul 28 20:29:03 2024 -0600
+
+    feat:(Tablas)
+    
+    Agregar Notmapped
+
+[33mcommit 39fa7157275847c5447525b84f76f3d117dad0b2[m
+Merge: 93c39d5 0d69fb9
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Jul 28 16:59:49 2024 -0600
+
+    Merge remote-tracking branch 'origin/yordin' into eduardo
+
+[33mcommit 93c39d511d1c6ba36c90142fde9500f6aafccf3d[m
+Merge: ae11dbb 0ae56b2
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Jul 28 16:55:13 2024 -0600
+
+    Merge remote-tracking branch 'origin/Hector' into eduardo
+
+[33mcommit ae11dbbc0f75b4756d14e5c5a2c6f1065e4498d8[m
+Merge: ede471e 56ff603
+Author: Hector11S <161340531+Hector11S@users.noreply.github.com>
+Date:   Sun Jul 28 15:05:21 2024 -0600
+
+    Merge branch 'eduardo' of https://github.com/KevinMatta/backend_sigesproc into eduardo
+
+[33mcommit ede471ef9b44a19746ffc86d5a7d159cc8506abd[m
+Author: Hector11S <161340531+Hector11S@users.noreply.github.com>
+Date:   Sun Jul 28 15:05:17 2024 -0600
+
+    fix
+    
+    añadido de campos en view model de actividades
+
+[33mcommit 56ff603379cd6c626d533e1f86e3debf8c093f09[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Jul 28 15:00:00 2024 -0600
+
+    fix(merge):Soluciones despues del merge con indencia de fletes
+
+[33mcommit 24d4652a0473dd10a1323e4de1cf1d56fc13a28b[m
+Merge: 3773569 6d7de35
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Jul 28 14:42:39 2024 -0600
+
+    Merge remote-tracking branch 'origin/alejandra' into eduardo
+
+[33mcommit 6d7de35e2254848b4337e7d431a1636106946a2d[m
+Author: Alesoliss <159864507+Alesoliss@users.noreply.github.com>
+Date:   Sun Jul 28 13:32:07 2024 -0600
+
+    fix(Fletes): estructura onion completa fletes encabezado, fletes detalle, y fletes control y calidad
+
+[33mcommit 8fbe32d03bc3d96d2fe1582a8055872fa80afbe9[m
+Author: jahirmjlg <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Sun Jul 28 12:47:09 2024 -0600
+
+    fix(insumos) ingresar renta maquinaria
+
+[33mcommit 0d69fb934ec26c89b33c46bfbfa17f64cc27d7e6[m
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Sun Jul 28 05:38:13 2024 -0600
+
+    imeagen cargada
+
+[33mcommit 3773569c7d7e39b702ce8318d61dd2da37e6b703[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Jul 28 05:37:58 2024 -0600
+
+    diseño
+
+[33mcommit 30bde9c353b4ea3e59e2720fa0531d273eb93bf5[m
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Sun Jul 28 04:29:14 2024 -0600
+
+    cambios generale del esquem de bienes y raices
+    
+    modificiacion de controladores
+
+[33mcommit 512daa842701f64a90c9d9081ecfdea87733ad46[m
+Merge: fe9284f 44a6e9c
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Sun Jul 28 04:16:20 2024 -0600
+
+    Merge remote-tracking branch 'origin/mindy' into yordin
+
+[33mcommit 44a6e9c18badb98de45d71d5e11758cfd01ef7a3[m
+Author: MFaviola <165686215+MFaviola@users.noreply.github.com>
+Date:   Sun Jul 28 04:13:15 2024 -0600
+
+    fix(Bien Raiz):salto linea
+
+[33mcommit ddcf8cc88c9262d65c6353073d5645e10a0a4051[m
+Author: jahirmjlg <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Sun Jul 28 02:41:03 2024 -0600
+
+    fix(insumos) arreglando insertar especifico
+
+[33mcommit 8e02b2f108db4232023293cfc8e88c3ffeea9115[m
+Merge: b5523a9 ef686e5
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Jul 28 01:01:19 2024 -0600
+
+    Merge remote-tracking branch 'origin/enderson' into eduardo
+
+[33mcommit b5523a9c88a89123c05d51b6f5d38a612177bb6c[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sun Jul 28 01:00:17 2024 -0600
+
+    fix(Entities)
+
+[33mcommit ef686e59f746bf36e73a3e88f20ee39372f6ae12[m
+Author: Enderson9 <161340614+Enderson9@users.noreply.github.com>
+Date:   Sun Jul 28 00:58:47 2024 -0600
+
+    feat:(tbPresupuestoDetalle)
+    
+    Variables NotMapped
+
+[33mcommit fe9284f884fa87cc18469dd7def58ebb048f6553[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Sat Jul 27 21:48:32 2024 -0700
+
+    agregando metodos para dataTable para la tabla de terrenos
+
+[33mcommit bac3cf693389bd910229be01ded1d604a9bbbf35[m
+Merge: da0e632 0ae56b2
+Author: jahirmjlg <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Sat Jul 27 22:46:11 2024 -0600
+
+    Merge branch 'Hector' into manuel
+
+[33mcommit da0e6320f23557e4644614c18974d1f819d66d11[m
+Author: jahirmjlg <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Sat Jul 27 22:45:16 2024 -0600
+
+    fix(insumos) compra detalle destino cambios en insertar y actualizar
+
+[33mcommit 0ae56b27741ebe2d6791b44eb54d7a0b205d6ff3[m
+Author: Hector11S <161340531+Hector11S@users.noreply.github.com>
+Date:   Sat Jul 27 22:35:37 2024 -0600
+
+    fix
+    
+    cambios
+
+[33mcommit 77ccf13f0fa0785754c85dde182c55c4f9f4cdbb[m
+Merge: cd993f7 0e0b783
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sat Jul 27 19:32:14 2024 -0600
+
+    Merge remote-tracking branch 'origin/Dany' into eduardo
+
+[33mcommit cd993f79ebaca5566b170c279dc0bc8940845488[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sat Jul 27 19:28:26 2024 -0600
+
+    fix(Merge):Se habia perdido por los conflictos
+
+[33mcommit e690a5832cbbf268ab3b5d957745d9c7c6444bc6[m
+Merge: 97f0637 fa2b1d9
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sat Jul 27 19:25:09 2024 -0600
+
+    Merge remote-tracking branch 'origin/jafeth' into eduardo
+
+[33mcommit 97f06375d32a72620f729a8849a68c045373e231[m
+Merge: 0f6a9c1 b6d3e6e
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sat Jul 27 19:15:42 2024 -0600
+
+    Merge remote-tracking branch 'origin/pavel' into eduardo
+
+[33mcommit fa2b1d9e7378f2d32facbd6a1a459aadd4e4a04c[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Sat Jul 27 18:09:02 2024 -0700
+
+    cambioooooooos
+
+[33mcommit 02fe3489aba1abceb1e2222851a395d2ac3b2216[m
+Merge: 0f6a9c1 bd010b8
+Author: MFaviola <165686215+MFaviola@users.noreply.github.com>
+Date:   Sat Jul 27 19:03:08 2024 -0600
+
+    Merge remote-tracking branch 'origin/jafeth' into mindy
+
+[33mcommit b6d3e6ef2ee9fc65b805140bd328487a5f6c361c[m
+Author: PavelPonce <136554909+PavelPonce@users.noreply.github.com>
+Date:   Sat Jul 27 18:55:02 2024 -0600
+
+    fix(dropdownlists)
+    
+    Endpoints de dropdownlists generales funcionan....
+
+[33mcommit 0f6a9c147e322be816b06534367a781aafec1b4a[m
+Merge: 98c1d6c 5f3fea0
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sat Jul 27 18:51:50 2024 -0600
+
+    Merge remote-tracking branch 'origin/jafeth' into eduardo
+
+[33mcommit bd010b8d299ea15cae2bb75bfa8182a2ef098550[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Sat Jul 27 17:50:53 2024 -0700
+
+    cambioooos
+
+[33mcommit 5f3fea01cfc93b6536d44da687eacb5614abc06c[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Sat Jul 27 17:35:21 2024 -0700
+
+    CAMBIOS EN EL SCRIPT
+
+[33mcommit dd5414d8379adfb8bd9bbbae7325d47ec9b01a0a[m
+Merge: fc8c3a7 25937d1
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Sat Jul 27 17:32:31 2024 -0700
+
+    Merge remote-tracking branch 'origin/yordin' into jafeth
+
+[33mcommit fc8c3a750a65e122eca845ab98764fabdd6344a7[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Sat Jul 27 17:26:23 2024 -0700
+
+    cambios
+
+[33mcommit bc72d60cb0227b48a55b446eba00ef75a685873e[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Sat Jul 27 17:20:02 2024 -0700
+
+    cambios en el documento controlador
+
+[33mcommit c2945f93cf0bafdb96064f18213a706aee8ebbec[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Sat Jul 27 17:18:29 2024 -0700
+
+    cambios en el scriptbase de datos y en el services de bienes raices
+
+[33mcommit 0d3c0c5aaca0fa2fbb5b3e63b73e116c49fb9a64[m
+Merge: a298b96 c1fb17b
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Sat Jul 27 16:59:24 2024 -0700
+
+    Merge remote-tracking branch 'origin/mindy' into jafeth
+
+[33mcommit c1fb17b942c5a58028208d67a8e2c58167ca46a6[m
+Author: MFaviola <165686215+MFaviola@users.noreply.github.com>
+Date:   Sat Jul 27 17:46:53 2024 -0600
+
+    feat(Bien Raiz)Modificacion Controlador Bien Raiz
+
+[33mcommit e6695af102af7368cf4ed3daae1d9e7c1faba489[m
+Author: Hector11S <161340531+Hector11S@users.noreply.github.com>
+Date:   Sat Jul 27 17:39:36 2024 -0600
+
+    fix
+    
+    cambios
+
+[33mcommit 98c1d6cd34f709b7c887b2f706583b6ea2032f2a[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Sat Jul 27 16:52:54 2024 -0600
+
+    fix(Cotizacion,Entities):Agregues notmapped de codigo
+
+[33mcommit 25937d17e8099182ad98b736f6ef0f2b738bf7e8[m
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Sat Jul 27 16:13:18 2024 -0600
+
+    docs(Bines y Raices): modificacion en el archivo requeststatus y acrivos generales del controlador de proceso de venta
+
+[33mcommit 4c79f3a0696cc4a80f1958f8a183105f87a1c52b[m
+Author: Alesoliss <159864507+Alesoliss@users.noreply.github.com>
+Date:   Sat Jul 27 16:06:36 2024 -0600
+
+    fix(Fletes): Entities y Viewmodel flete encabezado, detalle t flete control y calidad
+
+[33mcommit b417ccd5ae74fb1cbc60150d85ec29cb811bee60[m
+Author: PavelPonce <136554909+PavelPonce@users.noreply.github.com>
+Date:   Sat Jul 27 12:37:57 2024 -0600
+
+    style(toastr)
+    
+    Cambios de mensajes de toastr en front
+
+[33mcommit a298b96e581ffab3a76b4151214070732e8a4553[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Fri Jul 26 22:03:15 2024 -0700
+
+    algunas imagenes
+
+[33mcommit a790e7a6e96b49eb307ac2b498d84d9119f08873[m
+Merge: ebaaa30 577bf09
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Fri Jul 26 22:45:05 2024 -0600
+
+    Merge remote-tracking branch 'origin/pavel' into eduardo
+
+[33mcommit ebaaa3016fc0e222047ecea7cfac61400da370e0[m
+Merge: 345f7fc a868715
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Fri Jul 26 22:44:52 2024 -0600
+
+    Merge remote-tracking branch 'origin/madian' into eduardo
+
+[33mcommit 345f7fc82d3d5c9b4b45ce121bca0772a7dbed5c[m
+Merge: 002a5b4 a2246e9
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Fri Jul 26 22:44:40 2024 -0600
+
+    Merge remote-tracking branch 'origin/jafeth' into eduardo
+
+[33mcommit 002a5b411da531aa15580191af40700e46a50bc3[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Fri Jul 26 21:54:15 2024 -0600
+
+    feat(Cotizacion):Endpoints terminados
+
+[33mcommit a8687159aa5bc4468d135e859956d1144738389d[m
+Merge: eac1e68 c62b2d0
+Author: Madian2112 <165713036+Madian2112@users.noreply.github.com>
+Date:   Fri Jul 26 16:18:36 2024 -0600
+
+    Merge pull request #61 from KevinMatta/eduardo
+    
+    Eduardo
+
+[33mcommit c62b2d069fc9511b6aa5b1c5841a38df817d4edc[m
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Fri Jul 26 16:15:50 2024 -0600
+
+    fix(planilla): se arreglo ednpoint de planilla
+
+[33mcommit 570e00e87ee5da0b89bb63c34658423dcac130b7[m
+Merge: 8ee98ad c57d1f6
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Fri Jul 26 12:16:29 2024 -0600
+
+    'hector' into eduardo
+
+[33mcommit a2246e9d7e8d45aa53a6a07ca684c4d95aa4ab9e[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Fri Jul 26 12:11:41 2024 -0600
+
+    cambios en el repositorio de documento y agrege imagenes
+
+[33mcommit eac1e684e921c7a46eb59c9aa5e7aef90979ffdf[m
+Merge: a6209a4 8ee98ad
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Fri Jul 26 12:09:23 2024 -0600
+
+    Merge remote-tracking branch 'origin/eduardo' into madian
+
+[33mcommit a6209a448c8c1a74748d3f3ab818d319c208ce6c[m
+Merge: 3c0ab3c 44ebe32
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Fri Jul 26 11:57:15 2024 -0600
+
+    Merge remote-tracking branch 'origin/eduardo' into madian
+
+[33mcommit 8ee98add86e6680f6cc7a5635d422497ea94c7ee[m
+Author: jahirmjlg <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Fri Jul 26 11:57:03 2024 -0600
+
+    fix(Cotizaciones)
+
+[33mcommit 3c0ab3cdddd725facfc114f921f160927d32b565[m
+Merge: 5145a33 c8eaa1d
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Fri Jul 26 11:55:20 2024 -0600
+
+    Merge remote-tracking branch 'origin/victor' into madian
+
+[33mcommit c57d1f68b6825844f408b5b78c60cb6b8608bf98[m
+Merge: 5d3fdde afea3f0
+Author: Hector <enriquebarahonayt14@gmail.com>
+Date:   Fri Jul 26 10:55:18 2024 -0600
+
+    Merge remote-tracking branch 'origin/manuel' into hector
+
+[33mcommit be43c6c29091ede18e93fb4c2973f61f53466afa[m
+Author: Alesoliss <159864507+Alesoliss@users.noreply.github.com>
+Date:   Fri Jul 26 10:24:38 2024 -0600
+
+    fix(Fletes) entieties encabezado y detalle
+
+[33mcommit f80b813601988d2925384857b728684143a90982[m
+Author: Jason Jeremy Villanueva Sanchez <97322168+PUSHKIN504@users.noreply.github.com>
+Date:   Fri Jul 26 09:59:04 2024 -0600
+
+    fix(Viatico Enc)
+
+[33mcommit afea3f0cafac95bee56a357f48896738bc03dbd3[m
+Author: jahirmjlg <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Fri Jul 26 08:46:38 2024 -0600
+
+    fix(insumos) compradetalle descripcion cambios en algunos procedimientos asi como proedimientos nuevos
+
+[33mcommit f9a4f8b90d4e30e1b3d273786e8e2c47137e08b6[m
+Author: Alesoliss <159864507+Alesoliss@users.noreply.github.com>
+Date:   Fri Jul 26 07:50:35 2024 -0600
+
+    fix(Fletes, Insumos): toda capa onion de Fletes, y viewmodels y entities de Insumos por proveedores
+
+[33mcommit 5d3fddef4ece1402ae369e6427f3ffb0b9c6072a[m
+Author: Hector11S <161340531+Hector11S@users.noreply.github.com>
+Date:   Fri Jul 26 06:00:36 2024 -0600
+
+    feat
+    
+    cambio de endpionts
+
+[33mcommit 44ebe32fac72f751f22eaee0e31858a0025d52da[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Fri Jul 26 05:48:35 2024 -0600
+
+    fix
+
+[33mcommit 9b9962c1566369adcc2afcfeac0c2de3010739bf[m
+Merge: 2b840b5 08bfa34
+Author: jahirmjlg <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Fri Jul 26 03:30:00 2024 -0600
+
+    Merge branch 'hector' into manuel
+
+[33mcommit 08bfa34ef02dff1d81b725fef6e7ddbcf384e5cf[m
+Author: Hector11S <161340531+Hector11S@users.noreply.github.com>
+Date:   Fri Jul 26 03:28:47 2024 -0600
+
+    Fix
+    
+    cambios en orden de compra
+
+[33mcommit 4d35e2cf4dbe6cf9aa4da36da05b83acec6f4406[m
+Merge: e2b657a 5145a33
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Fri Jul 26 02:56:11 2024 -0600
+
+    Merge branch 'madian' of https://github.com/KevinMatta/backend_sigesproc into eduardo
+
+[33mcommit e2b657aa10afc063d22832701747374952812ae8[m
+Merge: fafbd75 c8eaa1d
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Fri Jul 26 02:31:18 2024 -0600
+
+    Merge branch 'victor' of https://github.com/KevinMatta/backend_sigesproc into eduardo
+
+[33mcommit fafbd75d38f37c708a891332445033ed695141ee[m
+Merge: c4fa159 d9c29a2
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Fri Jul 26 02:29:35 2024 -0600
+
+    Merge branch 'yordin' of https://github.com/KevinMatta/backend_sigesproc into eduardo
+
+[33mcommit 5145a3370b7cd05c8ad6a95f981142c9ab0d0a79[m
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Fri Jul 26 02:28:58 2024 -0600
+
+    feat(planilla): se agrego la pantalla de planilla
+
+[33mcommit c4642f2b4d856b90b46997f81ee5e33bc5cef0d6[m
+Author: Hector11S <161340531+Hector11S@users.noreply.github.com>
+Date:   Thu Jul 25 21:47:15 2024 -0600
+
+    fix
+    
+    agregado normapped
+
+[33mcommit d9c29a20e15466805cadcbb70e91e7da47860019[m
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Thu Jul 25 20:32:25 2024 -0600
+
+    cambio pequeños
+    
+    nada importante
+
+[33mcommit 9159b311a1c2e564a9d751a990786680512421ef[m
+Author: Jason <jasonjeremy504@gmail.com>
+Date:   Thu Jul 25 16:23:34 2024 -0600
+
+    Feat(Viaticos): End Points
+
+[33mcommit 0cc881cc586be356e5a41000dc837c96d5cdcf04[m
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Thu Jul 25 16:23:32 2024 -0600
+
+    feat(bienes raices): se agrego los paquetes para subir imagene
+
+[33mcommit c4fa1599478c4a6daf2d4bbece06c3ea56dc7df0[m
+Author: jahirmjlg <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Jul 25 16:19:50 2024 -0600
+
+    Fix(Campo Nuevo)
+
+[33mcommit f3d3ea645cf1bb4bfafcb511668ed0165f723a4d[m
+Author: Alesoliss <159864507+Alesoliss@users.noreply.github.com>
+Date:   Thu Jul 25 15:43:55 2024 -0600
+
+    fix(Fletes, Insumos): Viewmodel, Entities, de Insumos por proveedores y fletes, controladores y servicios se añadieron ednpoints
+
+[33mcommit fb02a172020c75fb95715db0282b5dc3f244289f[m
+Author: Hector <enriquebarahonayt14@gmail.com>
+Date:   Thu Jul 25 15:20:54 2024 -0600
+
+    feat
+    
+    añadido endpoint de BuscarPorDetallePorCotizacion
+
+[33mcommit 343255536acecaca45d4dd055f5eac66ab0cf037[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Thu Jul 25 15:03:04 2024 -0600
+
+    cambios en varias tablas  documentobienraiz,terrenos y el script tambien agrege mas imagenes
+
+[33mcommit c8eaa1d4c3ad704b3a95b64ff8094076a201952f[m
+Author: VJEB <vespinozabenitez@gmail.com>
+Date:   Thu Jul 25 15:02:44 2024 -0600
+
+    fix(deduccionesPorempleados) BuscarDeduccionesPorEmpleado
+
+[33mcommit e38ed661871607331c05c774c32ecebbf8f6aa21[m
+Merge: e8ec1be 6022b10
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Thu Jul 25 11:36:15 2024 -0600
+
+    Merge remote-tracking branch 'origin/yordin' into madian
+
+[33mcommit 6022b106a5903af37d47e02c69c191be19935342[m
+Author: Hector <yordin32sanchez@gmail.com>
+Date:   Thu Jul 25 11:29:12 2024 -0600
+
+    docs(Bienes y raices): endpoint proceso de venta, terenos y bienes y raices
+    
+    notmapped
+
+[33mcommit d17fd231d81c5fe4c67601f9e25c88aac067c932[m
+Author: Mine25-afk <161340614+Enderson9@users.noreply.github.com>
+Date:   Thu Jul 25 11:21:56 2024 -0600
+
+    fix:(Presupuesto)
+    
+    Modificaciones nuevas en lo realacionado con presupeusto
+
+[33mcommit 2b840b53909ec87fa00f1f91fbec60bb700c0a31[m
+Merge: f11789a e8ec1be
+Author: Manuel <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Thu Jul 25 11:09:20 2024 -0600
+
+    Merge branch 'eduardo' into manuel
+
+[33mcommit e8ec1be19ee6e32c8444163ea0f901827da40251[m
+Merge: 2b113f1 896be70
+Author: SabillonJ <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Jul 25 09:35:24 2024 -0600
+
+    Merge remote-tracking branch 'origin/hector' into eduardo
+
+[33mcommit 2b113f11fd4f488c5784b8feaee72f2f258ec123[m
+Author: Hector <yordin32sanchez@gmail.com>
+Date:   Thu Jul 25 08:30:16 2024 -0600
+
+    docs (General): modifque viewmodel y tb de pais, subcategoria, tasacambio y nivel
+
+[33mcommit 896be7010a19741eeed2e3c677b279abc044eb4c[m
+Merge: f4f9655 be4a2fd
+Author: Hector <enriquebarahonayt14@gmail.com>
+Date:   Thu Jul 25 07:45:52 2024 -0600
+
+    Merge remote-tracking branch 'origin/eduardo' into hector
+
+[33mcommit be4a2fdae0c9e97aa9a0486a8edbe4d645f326d5[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Jul 25 03:25:46 2024 -0600
+
+    Fix(Jafeth):Merge
+
+[33mcommit 37d75ecd996be8467340f5970db17bea32296fbc[m
+Merge: 3bba055 fa2477e
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Jul 25 03:21:58 2024 -0600
+
+    Merge branch 'jafeth' of https://github.com/KevinMatta/backend_sigesproc into eduardo
+
+[33mcommit 3bba055c5ca2d4ca0bfa948213966b56a1d65efe[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Jul 25 03:02:49 2024 -0600
+
+    fix(Fer):Merge
+
+[33mcommit cfb3879d352bc8c476aae26f5a07e50e3c0c598a[m
+Merge: d6b5dbc c29283e
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Jul 25 03:02:18 2024 -0600
+
+    Merge branch 'fernando' of https://github.com/KevinMatta/backend_sigesproc into eduardo
+
+[33mcommit f11789ade7f36d1af870e55152d4362960db94f1[m
+Author: jahirmjlg <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Thu Jul 25 01:49:30 2024 -0600
+
+    fix(insumos) compra detalle destinos Crud completo backend
+    
+    importante, not mappeds para la ingenieria inversa
+
+[33mcommit d6b5dbc5a1c7273315a837ef2b7ba127be4727a0[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Jul 25 01:19:59 2024 -0600
+
+    Fix(Yordin)Merge
+
+[33mcommit 020f04b315a7c8c9ee671172de9ab9d5cdadaacd[m
+Merge: 89adc09 9ef0ed6
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Jul 25 01:19:46 2024 -0600
+
+    Merge branch 'yordin' of https://github.com/KevinMatta/backend_sigesproc into eduardo
+
+[33mcommit 9ef0ed6b089c648238831eebf8be3a47e2ffbfc7[m
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Thu Jul 25 01:00:45 2024 -0600
+
+    errores generales
+
+[33mcommit fa2477e2187811bddf3f848332dfe78ae2f94eaf[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Wed Jul 24 23:53:21 2024 -0700
+
+    feat(bienesraices)subiendo imágenes al servidor
+
+[33mcommit 89adc0956e89b1e52921649e4753b147a9809b7a[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Jul 25 00:37:24 2024 -0600
+
+    Fix(Sua):Merge
+
+[33mcommit db6bb6fe545cae348d5fc8431067eaed072c0781[m
+Merge: 557a436 0917d50
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Thu Jul 25 00:36:55 2024 -0600
+
+    Merge branch 'sua' of https://github.com/KevinMatta/backend_sigesproc into eduardo
+
+[33mcommit e1f7d4c9be9e37812cd2bb618dfa830e25910482[m
+Merge: 3316977 f4f9655
+Author: jahirmjlg <161340354+jahirmjlg@users.noreply.github.com>
+Date:   Wed Jul 24 23:40:59 2024 -0600
+
+    Merge branch 'hector' into manuel
+
+[33mcommit f4f96551cc4b116cc40caf53df412f910da95404[m
+Author: Hector11S <161340531+Hector11S@users.noreply.github.com>
+Date:   Wed Jul 24 23:31:08 2024 -0600
+
+    fix
+    
+    Cambios en orden de compra
+
+[33mcommit 07e6d6f58a0aef296a68b717ab07a77d1f584f34[m
+Merge: 3dc32ec a140402
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Wed Jul 24 23:16:00 2024 -0600
+
+    Merge remote-tracking branch 'origin/madian' into yordin
+
+[33mcommit c29283e224dd3f1d61311deab678e715b59d990c[m
+Author: FernanJS17 <109115569+FernanJS17@users.noreply.github.com>
+Date:   Wed Jul 24 23:12:39 2024 -0600
+
+    fix(correcciones para endpoint de bodegas + notmapped monedas))
+
+[33mcommit 0917d5077cebda3aadd624e5b25815c8dea3f0ee[m
+Author: seucedaa <134754822+seucedaa@users.noreply.github.com>
+Date:   Wed Jul 24 23:12:09 2024 -0600
+
+    ingenieria inversa
+
+[33mcommit 8827b3df8ed08ad4ad47d0ca836aa95f761c41ac[m
+Merge: 38ebba6 a140402
+Author: seucedaa <134754822+seucedaa@users.noreply.github.com>
+Date:   Wed Jul 24 23:07:15 2024 -0600
+
+    Merge remote-tracking branch 'origin/madian' into sua
+
+[33mcommit 557a4361921a061ce7cc5b19720c2158e761df36[m
+Merge: aed4d29 a140402
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Wed Jul 24 22:22:11 2024 -0600
+
+    Merge branch 'madian' of https://github.com/KevinMatta/backend_sigesproc into eduardo
+
+[33mcommit 38ebba6eb5e54b0c0591276ac9644db028dddf9e[m
+Merge: 9d90812 2645162
+Author: seucedaa <134754822+seucedaa@users.noreply.github.com>
+Date:   Wed Jul 24 21:58:41 2024 -0600
+
+    Merge remote-tracking branch 'origin/dev' into sua
+
+[33mcommit 9d908125b950d4b9c9470a6a9d29b2505dc5e915[m
+Author: seucedaa <134754822+seucedaa@users.noreply.github.com>
+Date:   Wed Jul 24 21:58:21 2024 -0600
+
+    actualizar y eliminar flete
+
+[33mcommit 59095a004a37276d069640bf4673c497a6725c26[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Wed Jul 24 20:44:46 2024 -0700
+
+    fix(bienesraices)arregle algunos problemas y subi imagenes a la carpeta  del servidor
+
+[33mcommit db0d89cd1f5823872612f8e2ea8289368a07f899[m
+Merge: e617f93 a140402
+Author: FernanJS17 <109115569+FernanJS17@users.noreply.github.com>
+Date:   Wed Jul 24 21:25:36 2024 -0600
+
+    Merge remote-tracking branch 'origin/madian' into fernando
+
+[33mcommit aed4d292956d30dae862a909b41bc94517bf5778[m
+Merge: 6e6b841 2645162
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Wed Jul 24 21:06:55 2024 -0600
+
+    Merge branch 'dev' of https://github.com/KevinMatta/backend_sigesproc into eduardo
+
+[33mcommit 3dc32ec9101ea151c6b6fa2e8092b6d2f0d52913[m
+Author: Yordin Sanchez <146747575+DAYNO2023@users.noreply.github.com>
+Date:   Wed Jul 24 20:46:08 2024 -0600
+
+    docs (bienes y raices):  endopoint en para buscar el DNI
+    
+    ya lo termine
+
+[33mcommit e617f939a51f6c76179f98a623c55988336f9b00[m
+Merge: 8c9d424 2645162
+Author: FernanJS17 <109115569+FernanJS17@users.noreply.github.com>
+Date:   Wed Jul 24 18:00:50 2024 -0600
+
+    Merge remote-tracking branch 'origin/dev' into fernando
+
+[33mcommit b2b989d4ae07bcec0251c4bef6dbda7d31b4ffb4[m
+Merge: bc8f2ff a140402
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Wed Jul 24 15:32:48 2024 -0700
+
+    Merge remote-tracking branch 'origin/madian' into jafeth
+
+[33mcommit 577bf09c05ce119c5c97d5e2a8f92bdd1274d37d[m
+Author: Pace <pavelponce03@gmail.com>
+Date:   Wed Jul 24 16:17:52 2024 -0600
+
+    style()
+
+[33mcommit 6e6b841059963e8773992df9b2b0d5f5bc585676[m
+Merge: 0681d6e 97f1780
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Wed Jul 24 15:14:22 2024 -0600
+
+    Merge branch 'sua' of https://github.com/KevinMatta/backend_sigesproc into eduardo
+
+[33mcommit c728b73611d8314ab5fa9b4e5f1ea829e6f0b1fe[m
+Merge: 29d7811 a140402
+Author: Hector11S <161340531+Hector11S@users.noreply.github.com>
+Date:   Wed Jul 24 14:42:15 2024 -0600
+
+    Merge remote-tracking branch 'origin/madian' into hector
+
+[33mcommit a140402e722e7ed7a17f569614fb6c3cbc33ebc1[m
+Author: Madian2112 <madian.reyes212006@gmail.com>
+Date:   Wed Jul 24 14:29:53 2024 -0600
+
+    feat(proyecto): se hizo ingenieria inversa
+
+[33mcommit 0e0b783eb16e9fe052f5905cb3e3231c81622c7b[m
+Merge: bc7bafb 2645162
+Author: SabillonJ <145422491+DanyFranc0@users.noreply.github.com>
+Date:   Wed Jul 24 14:21:59 2024 -0600
+
+    Merge branch 'dev' into Dany
+
+[33mcommit f52fe62481c37ce427405dc71e2f316ca9501bf1[m
+Author: Hector <yordin32sanchez@gmail.com>
+Date:   Wed Jul 24 13:12:17 2024 -0600
+
+    docs (bienes y raices): detalles pequellos
+    
+    detalles pequeños
+
+[33mcommit 0681d6e23f6b0a04c40b39de2b2614963de9d839[m
+Author: Mine25-afk <eduardo.jafet.varela.salinas@gmail.com>
+Date:   Wed Jul 24 12:24:52 2024 -0600
+
+    feat(cotizacion):Agregue Entities
+
+[33mcommit bc8f2ffcd9c81133d65fe4ea99d0449b14eaa378[m
+Author: SabillonJ <161340097+SabillonJ@users.noreply.github.com>
+Date:   Wed Jul 24 11:59:05 2024 -0600
+
+    fix(bienesraices)modificando los repositorios y los controladores de documentobienraiz, y el de terrenos
+
+[33mcommit 29d7811308d1f1df944a377e315092a3feb0cfce[m
+Author: Hector <enriquebarahonayt14@gmail.com>
+Date:   Wed Jul 24 11:58:14 2024 -0600
+
+    fix
+    
+    cambios en orden de compra
+
+[33mcommit 26451629beec0326e825ed350b11f6d0c9911294[m
+Merge: 58fbe63 865d876
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Wed Jul 24 08:55:19 2024 -0600
+
+    Merge pull request #60 from KevinMatta/enderson
+    
+    feat:(Nuevos Endpoints)
+
+[33mcommit 865d87625affbd18d19c024ddb582082b0d4d99a[m
+Author: Mine25-afk <161340614+Enderson9@users.noreply.github.com>
+Date:   Wed Jul 24 08:53:38 2024 -0600
+
+    feat:(Nuevos Endpoints)
+    
+    Controlador Actividad
+    Controlador TasaCambio
+    Creacion de Controlador Proyecto
+
+[33mcommit 58fbe63c94df7f50ad61b48c051f94b85ad87bce[m
+Merge: 8ae4d87 d757485
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Wed Jul 24 08:16:02 2024 -0600
+
+    Merge pull request #59 from KevinMatta/enderson
+    
+    Enderson
+
+[33mcommit d7574858334ca8285cd4eed636094ce7d602a02e[m
+Author: Mine25-afk <161340614+Enderson9@users.noreply.github.com>
+Date:   Wed Jul 24 08:13:21 2024 -0600
+
+    feat:(ProyectoService)
+    
+    Funciones de PresupuestoEncabezado
+    Funciones de PresupuestoDetalle
+    Funciones de PresupuestoTasaCambio
+
+[33mcommit 046eb5e4831d24a18608602102cb3fdc6b66fcc0[m
+Merge: 58d34b7 8ae4d87
+Author: Mine25-afk <161340614+Enderson9@users.noreply.github.com>
+Date:   Wed Jul 24 08:10:28 2024 -0600
+
+    Merge remote-tracking branch 'origin/dev' into enderson
+
+[33mcommit 8032442c16da95b5de688e35cfc98e34af57686f[m
+Author: Mine25-afk <122749969+Mine25-afk@users.noreply.github.com>
+Date:   Wed Jul 24 05:37:54 2024 -0600
+
+    feat(Cotizaciones):Se agregaron unos endpoints temporales para el manejo de los impuestos

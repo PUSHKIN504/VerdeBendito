@@ -1,0 +1,302 @@
+<p-toast></p-toast>
+
+<div class="card">
+  <div class="grid" *ngIf="Create">
+    <div class="col-12">
+      <div class="card">
+        <div
+          class="flex"
+          style="width: 100%; margin: 0 auto; display: flex; align-items: center; height: 42px;"
+        >
+          <div style="width: 20%; display: flex; align-items: center; height: 12.5%;">
+            <button
+              (click)="CerrarFormulario()"
+              class="p-button-link"
+              pButton
+              pRipple
+              type="button"
+              label="Regresar"
+              icon="pi pi-arrow-left"
+              style="box-shadow: none !important"
+            ></button>
+          </div>
+          <div style="flex-grow: 1; display: flex; justify-content: center; align-items: center;">
+            <h1 class="text-center mt-4">{{ titulo }}</h1>
+          </div>
+          <div style="width: 20%;"></div>
+        </div>
+        
+        <hr />
+
+        <form [formGroup]="form" class="grid p-fluid">
+          <div class="field col-12 md:col-6">
+            <label>Nombre</label>
+            <input pInputText formControlName="nombre" placeholder="Ingrese el nombre" />
+            <small *ngIf="submitted && form.controls['nombre'].invalid" style="color: red;">
+              El campo es requerido.
+            </small>
+          </div>
+
+          <div class="field col-12 md:col-6">
+            <label>RTN</label>
+            <input pInputText formControlName="rtn" placeholder="Ingrese el RTN" />
+            <small *ngIf="submitted && form.controls['rtn'].invalid" style="color: red;">
+              El RTN es requerido y debe ser numérico.
+            </small>
+          </div>
+
+          <div class="field col-6 md:col-6">
+            <label>Dirección</label>
+            <textarea 
+              pInputTextarea 
+              formControlName="direccion" 
+              rows="3" 
+              style="width: 100%; max-width: 900px;" 
+              placeholder="Ingrese la dirección">
+            </textarea>
+            <small *ngIf="submitted && form.controls['direccion'].invalid" style="color: red;">
+              El campo es requerido.
+            </small>
+          </div>
+        </form>
+
+        <div class="text-right">
+          <button (click)="Guardar()" pButton icon="pi pi-save" label="Guardar"></button>
+          <button (click)="CerrarFormulario()" pButton class="p-button-secondary" icon="pi pi-times" label="Cancelar"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="grid" *ngIf="Index">
+    <div class="col-12">
+      <div class="card">
+        <h1 class="text-center">Clientes</h1>
+        <hr />
+        <div class="grid mt-2">
+          <div class="col-12">
+            <button (click)="CrearCliente()" pButton icon="pi pi-plus" label="Nuevo" class="mr-2"></button>
+          </div>
+        </div>
+        <p-table
+          #dt
+          [value]="clientes"
+          [paginator]="true"
+          [rows]="10"
+          [globalFilterFields]="['nombre', 'rtn', 'direccion']"
+          [rowsPerPageOptions]="[10, 25, 50]"
+        >
+          <ng-template pTemplate="header">
+            <tr>
+              <th>Acciones</th>
+              <th>Nombre</th>
+              <th>RTN</th>
+              <th>Dirección</th>
+            </tr>
+          </ng-template>
+          <ng-template pTemplate="body" let-cliente>
+            <tr (click)="selectCliente(cliente)">
+              
+              <td class="text-center">
+                  <p-splitButton
+                    class="custom-splitbutton"
+                    label="Acciones"
+                    icon="pi pi-cog"
+                    [model]="items"
+                    styleClass="p-button-secondary"
+                    appendTo="body"
+                  ></p-splitButton>
+                
+              </td>
+              <td>{{ cliente.nombre }}</td>
+              <td>{{ cliente.rtn }}</td>
+              <td>{{ cliente.direccion }}</td>
+            </tr>
+          </ng-template>
+        </p-table>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="grid" *ngIf="Index">
+    <div class="col-12">
+      <div class="card">
+        <h1 class="text-center mt-2">Listado de Clientes</h1>
+        <hr />
+        <div class="grid mt-2">
+          <div class="col-12">
+            <button (click)="CrearCliente()" pButton icon="pi pi-plus" label="Nuevo" class="mr-2"></button>
+          </div>
+        </div>
+        <div class="p-message p-message-info" style="margin-bottom: 1rem;">
+          <i class="pi pi-info-circle" style="margin-right: 0.5rem;"></i>
+          <span>Esta tabla muestra la lista de clientes registrados y sus respectivas facturas.</span>
+        </div>
+        <p-table
+          #dt
+          [value]="clientes"
+          [rows]="10"
+          [paginator]="true"
+          [rowHover]="true"
+          [rowsPerPageOptions]="[10, 25, 50]"
+          [globalFilterFields]="['nombre', 'rtn', 'direccion']"
+          responsiveLayout="scroll"
+          styleClass="mt-2"
+        >
+        <ng-template pTemplate="caption">
+          <div class="flex flex-column md:flex-row md:justify-content-between md:align-items-center">
+            <span class="block mt-2 md:mt-0 p-input-icon-left">
+              <i class="pi pi-search"></i>
+              <input
+                pInputText
+                type="text"
+                (input)="onGlobalFilter(dt, $event)"
+                placeholder="Buscar..."
+                class="w-full sm:w-auto"
+              />
+            </span>
+
+            <div class="registros">
+              <p-dropdown
+                [options]="dt.rowsPerPageOptions"
+                [(ngModel)]="dt.rows"
+                [style]="{ 'margin-right': '5px' }"
+                [autoWidth]="false"
+              ></p-dropdown>
+              <span style="font-weight: 700; margin-top: 7px;">Registros por página</span>
+            </div>
+          </div>
+        </ng-template>
+
+          <ng-template pTemplate="header">
+            <tr>
+              <th style="width: 3rem;"></th>
+              <th>Acciones</th>
+              <th>Nombre del Cliente</th>
+              <th>RTN</th>
+              <th>Direccion</th>
+              <th>Cantidad de Compras</th>
+            </tr>
+          </ng-template>
+  
+          <ng-template pTemplate="body" let-cliente>
+            <tr (click)="selectCliente(cliente)">
+              <td >
+                <button
+                  pButton
+                  icon="pi pi-chevron-down"
+                  class="p-button-rounded p-button-secondary"
+                  (click)="toggleExpandRow(cliente.id)"
+                  *ngIf="!expandedRows.includes(cliente.id)"
+                ></button>
+                <button
+                  pButton
+                  icon="pi pi-chevron-up"
+                  class="p-button-rounded p-button-secondary"
+                  (click)="toggleExpandRow(cliente.id)"
+                  *ngIf="expandedRows.includes(cliente.id)"
+                ></button>
+              </td>
+              <td class="text-center">
+                <p-splitButton
+                  class="custom-splitbutton"
+                  label="Acciones"
+                  icon="pi pi-cog"
+                  [model]="items"
+                  styleClass="p-button-secondary"
+                  appendTo="body"
+                ></p-splitButton>
+              
+            </td>
+              <td>{{ cliente.nombre }}</td>
+              <td>{{ cliente.rtn }}</td>
+              <td>{{ cliente.direccion }}</td>
+              <td>{{ cliente.facturas ? cliente.facturas.length : 0 }}</td>
+            </tr>
+  
+            <tr *ngIf="expandedRows.includes(cliente.id)">
+              <td colspan="3">
+                <div class="p-3">
+                  <h4>Facturas de {{ cliente.clienteNombre }}</h4>
+                  <p-table [value]="cliente.facturas" responsiveLayout="scroll">
+                    <ng-template pTemplate="header">
+                      <tr>
+                        <th style="width: 3rem;"></th>
+                        <th>ID Factura</th>
+                        <th>Subtotal</th>
+                        <th>Total</th>
+                      </tr>
+                    </ng-template>
+  
+                    <ng-template pTemplate="body" let-factura>
+                      <tr>
+                        <td>
+                          <button
+                            pButton
+                            icon="pi pi-chevron-down"
+                            class="p-button-rounded p-button-secondary"
+                            (click)="toggleFacturaExpand(factura.id)"
+                            *ngIf="!expandedFacturas.includes(factura.id)"
+                          ></button>
+                          <button
+                            pButton
+                            icon="pi pi-chevron-up"
+                            class="p-button-rounded p-button-secondary"
+                            (click)="toggleFacturaExpand(factura.id)"
+                            *ngIf="expandedFacturas.includes(factura.id)"
+                          ></button>
+                        </td>
+                        <td>{{ factura.id }}</td>
+                        <td>{{ factura.subtotal | currency }}</td>
+                        <td>{{ factura.total | currency }}</td>
+                      </tr>
+  
+                      <tr *ngIf="expandedFacturas.includes(factura.id)">
+                        <td colspan="4">
+                          <div class="p-3">
+                            <h4>Productos de la Factura ID: {{ factura.id }}</h4>
+                            <p-table [value]="factura.detalles" responsiveLayout="scroll">
+                              <ng-template pTemplate="header">
+                                <tr>
+                                  <th>Producto</th>
+                                  <th>Cantidad</th>
+                                  <th>Precio</th>
+                                  <th>Subtotal</th>
+                                </tr>
+                              </ng-template>
+                              <ng-template pTemplate="body" let-producto>
+                                <tr>
+                                  <td>{{ producto.nombreProducto }}</td>
+                                  <td>{{ producto.cantidad }}</td>
+                                  <td>{{ producto.precio | currency }}</td>
+                                  <td>{{ producto.subtotal | currency }}</td>
+                                </tr>
+                              </ng-template>
+                            </p-table>
+                          </div>
+                        </td>
+                      </tr>
+                    </ng-template>
+                  </p-table>
+                </div>
+              </td>
+            </tr>
+          </ng-template>
+        </p-table>
+      </div>
+    </div>
+  </div>
+  
+  
+
+  <p-dialog [(visible)]="Delete" header="Confirmar Eliminación" [modal]="true">
+    <div class="flex align-items-center">
+      <i class="pi pi-exclamation-triangle mr-2" style="font-size: 2rem;"></i>
+      <span>¿Está seguro de eliminar el cliente <strong>{{ selectedCliente?.nombre }}</strong>?</span>
+    </div>
+    <ng-template pTemplate="footer">
+      <button pButton icon="pi pi-trash" label="Eliminar" (click)="eliminarCliente()"></button>
+      <button pButton icon="pi pi-times" class="p-button-secondary" label="Cancelar" (click)="Delete = false"></button>
+    </ng-template>
+  </p-dialog>
+</div>
